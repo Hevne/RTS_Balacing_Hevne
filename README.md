@@ -67,13 +67,15 @@ To create a well balanced game economy system we will have to take in account 4 
 * **Step 1: Define investment and non-investment resources**<br>
 Investment resources are those that influence the speed at which the player receives the main value of the game. Such resources should be expressed in terms of time, and then limited in order to maintain balance. It is very important not to have investment resources, that can bring long-time profits, depend on chance or random factors.
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step1.jpg)
-* Build a cost system
-
+* **Step 2: Build a cost system**<br>
+This method allows you to put correct prices and determine how much everything is worth. For example, a player gets 60 coins for passing a level. How often will they get these 60 coins? At what point in time will they collect, for example, the 3,000 coins needed for an upgrade? What will they spend and at what points? Having such a schedule, the game economy designer adjusts the player's income and expenses for all the in-game resources.
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step3.jpg)
-* Create deficit and surplus
+* **Step 4: Create deficit and surplus**<br>
+The reaching of maximum profit earnings by the player is similar to the overheated economy, where the shop increases prices like the households increase the desired salary on a real labor force market, also the number of goods offered in the shop is set to the minimum because the overheated economy doesn’t have such a thing as unemployment. Creating such flow, we influence the player's feelings, because sometimes he has to strain himself, and then gets rewarded.
 
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step4.jpg)
-* Decomposition
+* **Step 5: Decomposition**<br>
+This means that if you count all the total revenues and all expenses, they will add up to 0 and this is an example of a perfectly balanced economy. In free-to-play games, sometimes the expenses are designed to be greater than the income: it forces the player to pay.
 
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step5.jpg)
 - Tech Tree
