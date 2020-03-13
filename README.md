@@ -61,14 +61,21 @@ Every RTS game has an internal economy in form of resourse gathering and managin
 
 It is important to say that as less resource types a game has the more easy will be to balance the game economy.
 
-To create a well balanced game economy system we will have to take in account 5 steps:
+To create a well balanced game economy system we will have to take in account 4 steps:
 
-* Step 1:Determine basic game values and quantify them
 
-* Define investment and non-investment resources
+* **Step 1: Define investment and non-investment resources**<br>
+Investment resources are those that influence the speed at which the player receives the main value of the game. Such resources should be expressed in terms of time, and then limited in order to maintain balance. It is very important not to have investment resources, that can bring long-time profits, depend on chance or random factors.
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step1.jpg)
 * Build a cost system
+
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step3.jpg)
 * Create deficit and surplus
+
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step4.jpg)
 * Decomposition
+
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step5.jpg)
 - Tech Tree
 - Maps
 - AI
