@@ -1,9 +1,11 @@
 # Introduction
+My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to explain my research on RTS Balancing focusing on Rock Paper Scissors base.
 
+# Index
 
-# Intransitive Mechanics or Rock Paper Scissors (RPS)
+# Intransitive Mechanics or Rock Paper Scissors 
 
-Intransitive Mechanics is just a geeky way of saying "Rock-Paper-Scissors like game" these are the games which don't have a single dominant strategy, because everything is weak and strong at the same time against something else, a kind of zer-sum games.
+"Rock-Paper-Scissors like game" these are the games which don't have a single dominant strategy, because everything is weak and strong at the same time against something else, a kind of zer-sum games.
 
 We see intransitive mechanics in games all the time. In fighting games, a typical pattern is that normal attacks are defeated by blocks, blocks are defeated by throws, and throws are defeated by attacks. In real-time strategy games, a typical pattern is that you have fliers that can destroy infantry, infantry that works well against archers, and archers are great at bringing down fliers.
 
