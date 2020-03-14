@@ -2,6 +2,10 @@
 My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to explain my research on RTS Balancing focusing on Rock Paper Scissors base.
 
 # Index
+* [Intransitive Mechanics or Rock Paper Scissors](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/README.md#intransitive-mechanics-or-rock-paper-scissors)
+* [Why Intransitive mechanics?](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/README.md#why-intransitive-mechanics)
+* [Some Maths behind RPS based games](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/README.md#some-maths-behind-rps-games)
+* [
 
 # Intransitive Mechanics or Rock Paper Scissors 
 
