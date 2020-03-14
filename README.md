@@ -58,16 +58,22 @@ Is stated that if a player wins over her opponent in one play, her probability o
 
 So its clear that if a player takes in account this method when confronting another player he has a significantly higher rate of winning since he can constantly predict the movements or strategy that will follow the other player in order to beat him.
 
+If I'm Alex and my rival is Paul, Paul has been trying to destroy my tanks using infantry units and by now his troops has been oblittered so he is more likely to start producig anti-tank troops, knowing this I can anticipate and prepare infantry units to counter his anti-tank troops.
+
+![](https://qph.fs.quoracdn.net/main-qimg-5f2c081d0d447b96b6fc74a2bb71ae98.webp) 
+
 But as I stated before: two conscious and gamer players can be engaged on a constant loop if following this strategy so, how to solve this situation?
 
 # Solving the human opponent problem
 
 Rock-Paper-Scissors is a symmetric zero-sum game, so:
 
-R = P = S = 0.
+**R = P = S = 0**
+
 Since the opponent must select exactly one throw, we also know the probabilities of their throw add up to 100%:
 
-r + p + s = 1
+**r + p + s = 1**
+
 From here we can solve the system of equations by substitution:
 
 * **R = 0 = s-p** therefore p=s
