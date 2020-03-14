@@ -39,7 +39,9 @@ Intransitive mechanics can be tangled as much as the designer wants to but its b
 
 <h1 id="Some Maths behind RPS games"> Some Maths behind RPS games </h1>
 
-First, let’s look at the outcomes. Let’s call our opponent’s throws r, p and s, and our throws R, P and S. Since winning and losing are equal and opposite (that is, one win + one loss balances out) and draws are right in the middle, let’s call a win +1 point, a loss -1 point, and a draw 0 points:
+So if we propose a table in which we take in account the possible throws of each player we can start doing some mathy-things with this. Calling our rival’s throws r, p and s, and our throws R, P and S. 
+
+Since winning and losing are equal and opposite and draws are right in the middle, let’s call a win +1 point, a loss -1 point, and a draw 0 points:
 
 | - | r | p | s |
 | -- | -- | -- | -- |
@@ -48,9 +50,9 @@ First, let’s look at the outcomes. Let’s call our opponent’s throws r, p a
 |S | -1| +1| +0|
 
 
-Let’s re-frame this a little bit, by calling r, p and s probabilities that the opponent will make each respective throw. For example, suppose you know ahead of time that your opponent is using a strategy of r=0.5, p=s=0.25 (that is, they throw 2 rock for every paper or scissors). What’s the best counter-strategy?
+Now if we re-frame this table by calling r, p and s the probabilites of the opponent for each possible throw. For example, let's assume that you know in advance that your rival is currently using a strategy based on a probability r=0.5, p=s=0.25 This meaning that by every paper or scissor he throws two rocks. What’s the best counter-strategy to come up with?
 
-To answer that question, we can construct a set of three equations that tells you your payoffs for each throw:
+To answer that question, we can construct a set of three equations that tells you your payoffs for each throw using the table constructed before.
 
 |Payoffs|
 |---|
@@ -64,7 +66,7 @@ So based on the probabilities, you can calculate the payoffs. In the case of our
 * P=0.25
 * S=-0.25
 
-Since P has the best payoff of all three throws, assuming the opponent doesn’t vary their strategy at all, our best counter-strategy is to throw Paper every time, and we expect that we will gain 0.25 per throw – that is, out of every four throws, we’ll win one more game than we lose. 
+Since P is he throw with the biggest payoff of all three throws and assuming that the opponent strategy is not going to change at all during the match our best counter-strategy will be to throw Paper every time, being this strategy the most efficient and effective of them all. Meaning that we would gain 0.25 per throw, this meaning that for every 4 throws we will win one more game than we lose.
 
 In fact, we’ll find that if our opponent merely throws rock the tiniest, slightest bit more often than the others, the net payoff for P will be better than the others, and our best strategy is still to throw Paper 100% of the time, until our opponent modifies their strategy. This is significant; it tells us that an intransitive mechanic is very fragile, and that even a slight imbalance on the player’s part can lead to a completely dominant strategy on the part of the opponent.
 
