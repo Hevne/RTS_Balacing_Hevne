@@ -2,13 +2,15 @@
 My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to explain my research on RTS Balancing focusing on Rock Paper Scissors base.
 
 # Index
-* [Intransitive Mechanics or Rock Paper Scissors](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/README.md#intransitive-mechanics-or-rock-paper-scissors)
-* [Why Intransitive mechanics?](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/README.md#why-intransitive-mechanics)
-* [Some Maths behind RPS based games](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/README.md#some-maths-behind-rps-games)
-* [Tactis in RTS]()
-* [Bibliography]()
+* <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 1. Intransitive Mechanics or Rock Paper Scissors</b></a>
+* <a href="#Why Intransitive Mechanics?"><b> 1.2. Why Intransitive Mechanics?</b></a>
+* <a href="#Some Maths behind RPS games"><b> 2. Some Maths behind RPS games</b></a>
+* <a href="#Tactics taken in account on an RTS"><b> 3. Tactics taken in account on an RTS</b></a>
+* <a href="#Solving the human opponent problem"><b> 4. Solving the human opponent problem</b></a>
+* <a href="#Bibliography"><b> 5. Bibliography</b></a>
 
-# Intransitive Mechanics or Rock Paper Scissors 
+
+<h1 id="Intransitive Mechanics or Rock Paper Scissors"> Intransitive Mechanics or Rock Paper Scissors  </h1>
 
 "Rock-Paper-Scissors like game" these are the games which don't have a single dominant strategy, because everything is weak and strong at the same time against something else, a kind of zer-sum games.
 
@@ -18,7 +20,7 @@ Some of these relationships might not be immediately obvious. For example, consi
 
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/rps.png)
 
-## Why Intransitive Mechanics?
+<h2 id="Why Intransitive Mechanics?"> Why Intransitive Mechanics?  </h2>
 
 It may be worth asking, if all intransitive mechanics are just glorified versions of Rock-Paper-Scissors, what’s the appeal? Few people play Rock-Paper-Scissors for fun, so why should they enjoy a game that just uses the same mechanics and dresses them differently?
 
@@ -30,7 +32,7 @@ Intransitive mechanics can be tangled as much as the designer wants to but its b
 
 ![](https://retrohelix.com/en/wp-content/uploads/2013/08/rps11.jpg)
 
-# Some Maths behind RPS games
+<h1 id="Some Maths behind RPS games"> Some Maths behind RPS games </h1>
 
 First, let’s look at the outcomes. Let’s call our opponent’s throws r, p and s, and our throws R, P and S. Since winning and losing are equal and opposite (that is, one win + one loss balances out) and draws are right in the middle, let’s call a win +1 point, a loss -1 point, and a draw 0 points:
 
@@ -63,7 +65,8 @@ In fact, we’ll find that if our opponent merely throws rock the tiniest, sligh
 
 Of course, against a human opponent who notices we’re always throwing P, their counter-strategy would be to throw a greater proportion of s, which then forces us to throw some R, which then causes them to throw p, which makes us throw S, which makes them throw r, and around and around we go. 
 
-# Tactics taken in account on an RTS
+<h1 id="Tactics taken in account on an RTS"> Tactics taken in account on an RTS </h1>
+
 How much strategy is needed in an RTS to win a human opponent? Assuming that RTSs can be simplified to the Rock-Paper-Scissors (RPS) formula makes this last question a lot easier to answer since a chinese university has found the always-winning strategy for an RPS based game.
 
 Is stated that if a player wins over her opponent in one play, her probability of repeating the same action in the next play is considerably higher than her probabilities of shifting actions. If a player has lost two or more times, she is likely to shift her play, and more likely to shift to the play that will beat the one that has just beaten her than the same one her opponent just used to beat her.
@@ -76,7 +79,7 @@ If I'm Alex and my rival is Paul, Paul has been trying to destroy my tanks using
 
 But as I stated before: two conscious and gamer players can be engaged on a constant loop if following this strategy so, how to solve this situation?
 
-# Solving the human opponent problem
+<h1 id="Solving the human opponent problem"> Solving the human opponent problem </h1>
 
 Rock-Paper-Scissors is a symmetric zero-sum game, so:
 
@@ -98,7 +101,8 @@ So our solution is that the opponent should throw r, p and s each with probabili
 
 Note that in actual play, this does not mean that the best strategy is to actually play randomly (say, by rolling a die secretly before each throw)! As I’ve said before, when humans try to play randomly, they tend to not do a very good job of it, so in the real world the best strategy is still to play each throw about as often as any other, but at the same time which throw you choose depends on your ability to detect and exploit patterns in your opponent’s play, while at the same time masking any apparent patterns in your own play. So our solution of 1:1:1 does not say which throw you must choose at any given time (that is in fact where the skill of the game comes in), but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
 
-# Bibliography
+<h1 id="Bibliography"> Bibliography </h1>
+
 * [The Balance of Power: Progression and Equilibrium in Real-Time Strategy Games](https://www.gamasutra.com/blogs/BrandonCasteel/20170306/292982/The_Balance_of_Power_Progression_and_Equilibrium_in_RealTime_StrategyGames.php)
 * [Intransitive Mechanics](https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/)
 * [Examining the Implementation of Rock, Paper, Scissors, Balance in Video Games](https://www.youtube.com/watch?v=N69Jzzcu57Q)
