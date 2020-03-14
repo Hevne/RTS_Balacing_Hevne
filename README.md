@@ -21,7 +21,7 @@ Sometimes this relathion is not that obvious, for example in a game as League Of
 Another not so clear example is a game in which one kind of unit is an expert in long-range attacks, having advantage over short-range attack units. But a short-range attacker which has the ability of turning invisible or moving really fast across the map can counter this range advantage by making the long-range unit weak against attacks.
 
 
-![](https://img.favpng.com/7/19/17/rock-paper-scissors-hand-game-png-favpng-vM5iKtjbSFe5cJXXh9SAviupf.jpg)
+![](https://www.pngitem.com/pimgs/m/266-2667284_rock-paper-scissors-diagram-hd-png-download.png)
 
 <h2 id="Why Intransitive Mechanics?"> Why Intransitive Mechanics?  </h2>
 
