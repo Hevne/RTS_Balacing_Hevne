@@ -57,27 +57,31 @@ Since P has the best payoff of all three throws, assuming the opponent doesn’t
 Of course, against a human opponent who notices we’re always throwing P, their counter-strategy would be to throw a greater proportion of s, which then forces us to throw some R, which then causes them to throw p, which makes us throw S, which makes them throw r, and around and around we go. 
 
 # Economy
-Every RTS game has an internal economy in form of resourse gathering and managing. The first step for creating a game economy system is to determine every resource type that the worker units will be able to gather in the game. When I talk about worker units, I’m talking about the units whose function is not to battle, but to gather resources and construct buildings. 
+Every RTS game has an internal economy in form of resourse gathering and managing. The first step for creating a game economy system is to determine every resource type that the worker units will be able to gather in the game. Also, we have to think about which resources will be more valuable, and in consequence less generated on the map.
 
-It is important to say that as less resource types a game has the more easy will be to balance the game economy.
+It is important to appoint that as less resource types a game has the more easy will be to balance the game economy.
 
 To create a well balanced game economy system we will have to take in account 4 steps:
 
 
-* **Step 1: Define investment and non-investment resources**<br>
+* **Step 1: Define investment and non-investment resources**<br><br>
 Investment resources are those that influence the speed at which the player receives the main value of the game. Such resources should be expressed in terms of time, and then limited in order to maintain balance. It is very important not to have investment resources, that can bring long-time profits, depend on chance or random factors.
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step1.jpg)
-* **Step 2: Build a cost system**<br>
-This method allows you to put correct prices and determine how much everything is worth. For example, a player gets 60 coins for passing a level. How often will they get these 60 coins? At what point in time will they collect, for example, the 3,000 coins needed for an upgrade? What will they spend and at what points? Having such a schedule, the game economy designer adjusts the player's income and expenses for all the in-game resources.
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step3.jpg)
-* **Step 4: Create deficit and surplus**<br>
-The reaching of maximum profit earnings by the player is similar to the overheated economy, where the shop increases prices like the households increase the desired salary on a real labor force market, also the number of goods offered in the shop is set to the minimum because the overheated economy doesn’t have such a thing as unemployment. Creating such flow, we influence the player's feelings, because sometimes he has to strain himself, and then gets rewarded.
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step1.jpg)<br>
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step4.jpg)
-* **Step 5: Decomposition**<br>
+* **Step 2: Build a cost system**<br><br>
+This method allows you to put correct prices and determine how much everything is worth. For example, a player can gather 20 wood for sending a worker to gather it. How many wood does the player need to build a fortress? Having such a schedule, the game economy designer adjusts the player's income and expenses for all the in-game resources.
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step3.jpg)<br>
+
+* **Step 4: Create deficit and surplus**<br><br>
+The reaching of maximum profit earnings by the player is similar to the overheated economy, where the shop increases prices like the households increase the desired salary on a real labor force market, also the number of goods offered in the shop is set to the minimum because the overheated economy doesn’t have such a thing as unemployment. Creating such flow, we influence the player's feelings, because sometimes he has to strain himself, and then gets rewarded.
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step4.jpg)<br>
+
+* **Step 5: Decomposition**<br><br>
 This means that if you count all the total revenues and all expenses, they will add up to 0 and this is an example of a perfectly balanced economy. In free-to-play games, sometimes the expenses are designed to be greater than the income: it forces the player to pay.
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step5.jpg)
-- Tech Tree
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step5.jpg)<br>
+
+# Tech Tree
+Tech Trees balance is quite important on a RTS since it will determine which is the progression speed of the player, unlocking new units, buildings or even types of resources to be gathered. For Tech Trees is needed to stablish an ammount of time or even resources needed to research a certain node of the tree, this will cause the player to decide certain ways of progressing and unlocking stuff depending on the way he wants to play the game. Maybe he prefers to unlock all the low-resources nodes or maybe the player will be rushing a certain branch on the tree.
 - Maps
 - AI
