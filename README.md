@@ -62,7 +62,7 @@ But as I stated before: two conscious and gamer players can be engaged on a cons
 
 # Solving the human opponent problem
 
-Let’s go back to our equations. Rock-Paper-Scissors is a symmetric zero-sum game, so:
+Rock-Paper-Scissors is a symmetric zero-sum game, so:
 
 R = P = S = 0.
 Since the opponent must select exactly one throw, we also know the probabilities of their throw add up to 100%:
@@ -70,11 +70,16 @@ Since the opponent must select exactly one throw, we also know the probabilities
 r + p + s = 1
 From here we can solve the system of equations by substitution:
 
-R = 0 = s-p, therefore p=s
-P = 0 = r-s, therefore r=s
-S = 0 = p-r, therefore p=r
-r+p+s = r+r+r = 1, therefore r=1/3
-Since r=p=s, p=1/3, s=1/3
+* **R = 0 = s-p** therefore p=s
+* **P = 0 = r-s** therefore r=s
+* **S = 0 = p-r** therefore p=r
+* **r+p+s = r+r+r = 1** therefore r=1/3 
+* **Since r=p=s** therefore p=1/3, s=1/3<br>
+
 So our solution is that the opponent should throw r, p and s each with probabilities of 1/3. This suggests that against a completely random opponent it doesn’t matter what we choose, our odds of winning are the same no matter what. Of course, the opponent knows this too, so if we choose an unbalanced strategy they can alter their throw ratio to beat us; our best strategy is also to choose each throw with 1/3 probability.
 
 Note that in actual play, this does not mean that the best strategy is to actually play randomly (say, by rolling a die secretly before each throw)! As I’ve said before, when humans try to play randomly, they tend to not do a very good job of it, so in the real world the best strategy is still to play each throw about as often as any other, but at the same time which throw you choose depends on your ability to detect and exploit patterns in your opponent’s play, while at the same time masking any apparent patterns in your own play. So our solution of 1:1:1 does not say which throw you must choose at any given time (that is in fact where the skill of the game comes in), but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
+
+# Bibliography
+* ![The Balance of Power: Progression and Equilibrium in Real-Time Strategy Games](https://www.gamasutra.com/blogs/BrandonCasteel/20170306/292982/The_Balance_of_Power_Progression_and_Equilibrium_in_RealTime_StrategyGames.php)
+* 
