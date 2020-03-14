@@ -100,13 +100,19 @@ Since the opponent must select exactly one throw, we also know the probabilities
 
 **r + p + s = 1**
 
-From here we can solve the system of linear equations by substitution:
+From here we can solve the system of linear equations by substitution using the known values from our previous <a href="#Some Maths behind RPS games"><b>table</b></a>
 
-* **R = 0 = s-p**   therefore p=s
-* **P = 0 = r-s**   therefore r=s
-* **S = 0 = p-r**   therefore p=r
-* **r+p+s = r+r+r = 1**   therefore r=1/3 
-* **Since r=p=s**   therefore p=1/3, s=1/3<br>
+
+
+* <a href="https://www.codecogs.com/eqnedit.php?latex=R=&space;0&space;=&space;s-p&space;\Rightarrow&space;p=s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R=&space;0&space;=&space;s-p&space;\Rightarrow&space;p=s" title="R= 0 = s-p \Rightarrow p=s" /></a>
+
+* <a href="https://www.codecogs.com/eqnedit.php?latex=P&space;=&space;0&space;=&space;r-s&space;\Rightarrow&space;r=s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P&space;=&space;0&space;=&space;r-s&space;\Rightarrow&space;r=s" title="P = 0 = r-s \Rightarrow r=s" /></a>
+
+* <a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;0&space;=&space;p-r&space;\Rightarrow&space;p=r" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;0&space;=&space;p-r&space;\Rightarrow&space;p=r" title="S = 0 = p-r \Rightarrow p=r" /></a>
+
+* <a href="https://www.codecogs.com/eqnedit.php?latex=r&plus;p&plus;s&space;=&space;r&plus;r&plus;r&space;=&space;1&space;\Rightarrow&space;r=1/3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r&plus;p&plus;s&space;=&space;r&plus;r&plus;r&space;=&space;1&space;\Rightarrow&space;r=1/3" title="r+p+s = r+r+r = 1 \Rightarrow r=1/3" /></a>
+
+* <a href="https://www.codecogs.com/eqnedit.php?latex=r=p=s&space;\Rightarrow&space;p=1/3,&space;s=1/3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r=p=s&space;\Rightarrow&space;p=1/3,&space;s=1/3" title="r=p=s \Rightarrow p=1/3, s=1/3" /></a>
 
 By looking at this solved system of equations we can see how our solution is that the opponent should throw r, p and s each with probabilities of 1/3. So we can say that against a completely random opponent it doesn't matter what we choose since our odds of winning or losing are the same in all ways.
 
