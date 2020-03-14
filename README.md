@@ -1,4 +1,4 @@
-# RTS_Balacing_Hevne
+# Introduction
 
 
 # Intransitive Mechanics or Rock Paper Scissors (RPS)
