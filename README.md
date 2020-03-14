@@ -100,23 +100,23 @@ Since the opponent must select exactly one throw, we also know the probabilities
 
 **r + p + s = 1**
 
-From here we can solve the system of equations by substitution:
+From here we can solve the system of linear equations by substitution:
 
-* **R = 0 = s-p** therefore p=s
-* **P = 0 = r-s** therefore r=s
-* **S = 0 = p-r** therefore p=r
-* **r+p+s = r+r+r = 1** therefore r=1/3 
-* **Since r=p=s** therefore p=1/3, s=1/3<br>
+* **R = 0 = s-p**   therefore p=s
+* **P = 0 = r-s**   therefore r=s
+* **S = 0 = p-r**   therefore p=r
+* **r+p+s = r+r+r = 1**   therefore r=1/3 
+* **Since r=p=s**   therefore p=1/3, s=1/3<br>
 
-So our solution is that the opponent should throw r, p and s each with probabilities of 1/3. This suggests that against a completely random opponent it doesn’t matter what we choose, our odds of winning are the same no matter what. 
+By looking at this solved system of equations we can see how our solution is that the opponent should throw r, p and s each with probabilities of 1/3. So we can say that against a completely random opponent it doesn't matter what we choose since our odds of winning or losing are the same in all ways.
 
-Of course, the opponent knows this too, so if we choose an unbalanced strategy they can alter their throw ratio to beat us; our best strategy is also to choose each throw with 1/3 probability.
+So assuming that our opponent knows this too, if we choose an unbalanced strategy not based on this 1/3 for each possible throw our opponent can alter his throw ratio to beat us, so the best option for us is to stick with the 1/3 probability strategy.
 
-Note that in actual play, this does not mean that the best strategy is to actually play randomly (say, by rolling a die secretly before each throw)! 
+***This doesn't mean that in actual play we should choose a completely random strategy to win***
 
-As I’ve said before, when humans try to play randomly, they tend to not do a very good job of it, so in the real world the best strategy is still to play each throw about as often as any other, but at the same time which throw you choose depends on your ability to detect and exploit patterns in your opponent’s play, while at the same time masking any apparent patterns in your own play. 
+When humans try to play a game randomly they tend to not be quite good at it, so in the real world the best and optimal strategy is to keep an equal throw ratio for each possible option, but at the same time be constantly evaluating your opponents patterns and play style in order to exploit it in your favour and masking any kind of pattern in your own play.
 
-So our solution of 1:1:1 does not say which throw you must choose at any given time (that is in fact where the skill of the game comes in), but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
+So the solution of 1:1:1 does not say which throw you must choose at any given time **(that is in fact where the skill of the game comes in)**, but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
 
 <h1 id="Bibliography"> Bibliography </h1>
 
@@ -125,4 +125,4 @@ So our solution of 1:1:1 does not say which throw you must choose at any given t
 * [Examining the Implementation of Rock, Paper, Scissors, Balance in Video Games](https://www.youtube.com/watch?v=N69Jzzcu57Q)
 * [Perfect Imbalance](https://www.youtube.com/watch?v=e31OSVZF77w)
 * [Applying RPS to games](https://www.gamasutra.com/blogs/DevonWiersma/20170428/297030/Applying_Rock_Paper_Scissors_to_Video_Games.php)
-* 
+
