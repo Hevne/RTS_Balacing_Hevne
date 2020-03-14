@@ -14,19 +14,24 @@ My name is Eudald Garrofe, I'm a student from CITM's videogames design & develop
 
 "Rock-Paper-Scissors like game" these are the games which don't have a single dominant strategy, because everything is weak and strong at the same time against something else, a kind of zer-sum games.
 
-We see intransitive mechanics in games all the time. In fighting games, a typical pattern is that normal attacks are defeated by blocks, blocks are defeated by throws, and throws are defeated by attacks. In real-time strategy games, a typical pattern is that you have fliers that can destroy infantry, infantry that works well against archers, and archers are great at bringing down fliers.
+Intransitive mechanics can be found constantly in any kind of games. In fighting games is a common pattern that normal attacks are weak against a block, block are weak against throws and throws weak against attacks. In Real time strategy games, RTS, we see too a common pattern in which fliers defeat infantry, infantry is strong against archers and archers are a good choice to shoot at fliers.
 
-Some of these relationships might not be immediately obvious. For example, consider a game where one kind of unit has long-range attacks, which is defeated by a short-range attacker who can turn invisible; this in turn is defeated by a medium-range attacker with radar that reveals invisible units; and the medium-range attacker is of course weak against the long-range attacker.
+Sometimes this relathion is not that obvious, for example in a game as League Of Legends in which we have different kind of champions for the jungle role, (Tanks, assassins, fighters...) Its not so obvious to see which kind of champion is strong against which but we can certainly stablish a pattern. Tanks>Assassins, Assassins>Fighters, Fighters>Tanks. A lot of times the current state of the meta and of the maths behind each champion states which is the current relation for the rock papers scissors formula.
+
+Another not so clear example is a game in which one kind of unit is an expert in long-range attacks, having advantage over short-range attack units. But a short-range attacker which has the ability of turning invisible or moving really fast across the map can counter this range advantage by making the long-range unit weak against attacks.
+
 
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/rps.png)
 
 <h2 id="Why Intransitive Mechanics?"> Why Intransitive Mechanics?  </h2>
 
-It may be worth asking, if all intransitive mechanics are just glorified versions of Rock-Paper-Scissors, what’s the appeal? Few people play Rock-Paper-Scissors for fun, so why should they enjoy a game that just uses the same mechanics and dresses them differently?
+So why if all intransitive mechanics are improved and modified versions of Rock-Paper-Sicssors, what's the appeal? 
 
-For one thing, an intransitive game is at least more interesting than one with a single dominant strategy (“Rock-Rock-Rock”) because you will see more variety in play. For another, an intransitive mechanic embedded in a larger game may still allow players to change or modify their strategies in mid-game. Players may make certain choices in light of what they observe other players doing now (in real-time), particularly in action-based games where you must react to your opponent’s reaction to your reaction to their action in the space of a few milliseconds.
+First, an intransitive game is by far more interesting that one which only has in account one way or a single dominant strategy, going all in with Rock for example would tend to be boring and tedious for most of player, Intransitive mechanics present more variety in lay and make it more interesting.
 
-Additionally, intransitive mechanics serve as a kind of “emergency brake” on runaway dominant strategies. Even if you don’t know exactly what the best strategy in your game is, if all strategies have an intransitive relationship, you can at least know that there will not be a single dominant strategy that invalidates all of the others, because it will be weak against at least one other counter-strategy. 
+For another, an intransitive mechanic always allows players to change or modify the way they are playing the game until now and changing their strategies in mid-game. In this way players can decide certain choics in light of what they have seen doing other rival players, in this way you can react in a space of few milliseconds.
+
+Furthermore, intransitive mechanics serve as an "emergency brake" on runaway dominant strategies. Even if you're not sure about which is the best strategy in your game, making all the strategies have an intransitive relationship you can know that there will not be just a single dominant strategies above the rest. 
 
 Intransitive mechanics can be tangled as much as the designer wants to but its better to keep it simple for the player having the classic formula of a relation between 3 used in games as Pokemon, Starcraft, Civilization or even Dark Souls. Just imagine playing a game and having to take in account all these relations:
 
