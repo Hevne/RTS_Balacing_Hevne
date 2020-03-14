@@ -66,14 +66,17 @@ To create a well balanced game economy system we will have to take in account 4 
 
 * **Step 1: Define investment and non-investment resources**<br><br>
 Investment resources are those that influence the speed at which the player receives the main value of the game. Such resources should be expressed in terms of time, and then limited in order to maintain balance. It is very important not to have investment resources, that can bring long-time profits, depend on chance or random factors.
+
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step1.jpg)<br>
 
 * **Step 2: Build a cost system**<br><br>
 This method allows you to put correct prices and determine how much everything is worth. For example, a player can gather 20 wood for sending a worker to gather it. How many wood does the player need to build a fortress? Having such a schedule, the game economy designer adjusts the player's income and expenses for all the in-game resources.
+
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step3.jpg)<br>
 
 * **Step 4: Create deficit and surplus**<br><br>
 The reaching of maximum profit earnings by the player is similar to the overheated economy, where the shop increases prices like the households increase the desired salary on a real labor force market, also the number of goods offered in the shop is set to the minimum because the overheated economy doesn’t have such a thing as unemployment. Creating such flow, we influence the player's feelings, because sometimes he has to strain himself, and then gets rewarded.
+
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step4.jpg)<br>
 
 * **Step 5: Decomposition**<br><br>
