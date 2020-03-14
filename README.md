@@ -1,12 +1,7 @@
 # RTS_Balacing_Hevne
 
 
-- Units: Combat, building?
-# Units Balacing
-
-Units and unit management are one of the core components of any RTS video game. To make the combat in RTS games engaging, it is important to have a balanced roster of units. Without a good unit balance, the strategy part of a real time strategy game would fall flat, and the game would not feel as a strategy game, but something like a construction simulation game with units that eliminate each other.
-
-## Intransitive Mechanics or Rock Paper Scissors (RPS)
+# Intransitive Mechanics or Rock Paper Scissors (RPS)
 
 Intransitive Mechanics is just a geeky way of saying "Rock-Paper-Scissors like game" these are the games which don't have a single dominant strategy, because everything is weak and strong at the same time against something else, a kind of zer-sum games.
 
@@ -25,7 +20,7 @@ For one thing, an intransitive game is at least more interesting than one with a
 
 Additionally, intransitive mechanics serve as a kind of “emergency brake” on runaway dominant strategies. Even if you don’t know exactly what the best strategy in your game is, if all strategies have an intransitive relationship, you can at least know that there will not be a single dominant strategy that invalidates all of the others, because it will be weak against at least one other counter-strategy. 
 
-## Some Maths behind RPS games
+# Some Maths behind RPS games
 
 First, let’s look at the outcomes. Let’s call our opponent’s throws r, p and s, and our throws R, P and S. Since winning and losing are equal and opposite (that is, one win + one loss balances out) and draws are right in the middle, let’s call a win +1 point, a loss -1 point, and a draw 0 points:
 
@@ -56,35 +51,30 @@ Since P has the best payoff of all three throws, assuming the opponent doesn’t
 
 Of course, against a human opponent who notices we’re always throwing P, their counter-strategy would be to throw a greater proportion of s, which then forces us to throw some R, which then causes them to throw p, which makes us throw S, which makes them throw r, and around and around we go. 
 
-# Economy
-Every RTS game has an internal economy in form of resourse gathering and managing. The first step for creating a game economy system is to determine every resource type that the worker units will be able to gather in the game. Also, we have to think about which resources will be more valuable, and in consequence less generated on the map.
+# Tactics taken in account on an RTS
+How much strategy is needed in an RTS to win a human opponent? Assuming that RTSs can be simplified to the Rock-Paper-Scissors (RPS) formula makes this last question a lot easier to answer since a chinese university has found the always-winning strategy for an RPS based game.
 
-It is important to appoint that as less resource types a game has the more easy will be to balance the game economy.
+Is stated that if a player wins over her opponent in one play, her probability of repeating the same action in the next play is considerably higher than her probabilities of shifting actions. If a player has lost two or more times, she is likely to shift her play, and more likely to shift to the play that will beat the one that has just beaten her than the same one her opponent just used to beat her.
 
-To create a well balanced game economy system we will have to take in account 4 steps:
+So its clear that if a player takes in account this method when confronting another player he has a significantly higher rate of winning since he can constantly predict the movements or strategy that will follow the other player in order to beat him.
 
+But as I stated before: two conscious and gamer players can be engaged on a constant loop if following this strategy so, how to solve this situation?
 
-* **Step 1: Define investment and non-investment resources**<br><br>
-Investment resources are those that influence the speed at which the player receives the main value of the game. Such resources should be expressed in terms of time, and then limited in order to maintain balance. It is very important not to have investment resources, that can bring long-time profits, depend on chance or random factors.
+# Solving the human opponent problem
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step1.jpg)<br>
+Let’s go back to our equations. Rock-Paper-Scissors is a symmetric zero-sum game, so:
 
-* **Step 2: Build a cost system**<br><br>
-This method allows you to put correct prices and determine how much everything is worth. For example, a player can gather 20 wood for sending a worker to gather it. How many wood does the player need to build a fortress? Having such a schedule, the game economy designer adjusts the player's income and expenses for all the in-game resources.
+R = P = S = 0.
+Since the opponent must select exactly one throw, we also know the probabilities of their throw add up to 100%:
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step3.jpg)<br>
+r + p + s = 1
+From here we can solve the system of equations by substitution:
 
-* **Step 4: Create deficit and surplus**<br><br>
-The reaching of maximum profit earnings by the player is similar to the overheated economy, where the shop increases prices like the households increase the desired salary on a real labor force market, also the number of goods offered in the shop is set to the minimum because the overheated economy doesn’t have such a thing as unemployment. Creating such flow, we influence the player's feelings, because sometimes he has to strain himself, and then gets rewarded.
+R = 0 = s-p, therefore p=s
+P = 0 = r-s, therefore r=s
+S = 0 = p-r, therefore p=r
+r+p+s = r+r+r = 1, therefore r=1/3
+Since r=p=s, p=1/3, s=1/3
+So our solution is that the opponent should throw r, p and s each with probabilities of 1/3. This suggests that against a completely random opponent it doesn’t matter what we choose, our odds of winning are the same no matter what. Of course, the opponent knows this too, so if we choose an unbalanced strategy they can alter their throw ratio to beat us; our best strategy is also to choose each throw with 1/3 probability.
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step4.jpg)<br>
-
-* **Step 5: Decomposition**<br><br>
-This means that if you count all the total revenues and all expenses, they will add up to 0 and this is an example of a perfectly balanced economy. In free-to-play games, sometimes the expenses are designed to be greater than the income: it forces the player to pay.
-
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/step5.jpg)<br>
-
-# Tech Tree
-Tech Trees balance is quite important on a RTS since it will determine which is the progression speed of the player, unlocking new units, buildings or even types of resources to be gathered. For Tech Trees is needed to stablish an ammount of time or even resources needed to research a certain node of the tree, this will cause the player to decide certain ways of progressing and unlocking stuff depending on the way he wants to play the game. Maybe he prefers to unlock all the low-resources nodes or maybe the player will be rushing a certain branch on the tree.
-- Maps
-- AI
+Note that in actual play, this does not mean that the best strategy is to actually play randomly (say, by rolling a die secretly before each throw)! As I’ve said before, when humans try to play randomly, they tend to not do a very good job of it, so in the real world the best strategy is still to play each throw about as often as any other, but at the same time which throw you choose depends on your ability to detect and exploit patterns in your opponent’s play, while at the same time masking any apparent patterns in your own play. So our solution of 1:1:1 does not say which throw you must choose at any given time (that is in fact where the skill of the game comes in), but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
