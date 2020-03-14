@@ -56,15 +56,17 @@ To answer that question, we can construct a set of three equations that tells yo
 
 |Payoffs|
 |---|
-|R = 0r + (-1)p + 1s = s-p|
-|P = 1r + 0p + (-1)s = r-s|
-|S = (-1)r + 1p + 0s = p-r|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=R&space;=&space;0r&space;&plus;&space;(-1)p&space;&plus;&space;1s&space;=&space;s-p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R&space;=&space;0r&space;&plus;&space;(-1)p&space;&plus;&space;1s&space;=&space;s-p" title="R = 0r + (-1)p + 1s = s-p" /></a>|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=P&space;=&space;1r&space;&plus;&space;0p&space;&plus;&space;(-1)s&space;=&space;r-s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P&space;=&space;1r&space;&plus;&space;0p&space;&plus;&space;(-1)s&space;=&space;r-s" title="P = 1r + 0p + (-1)s = r-s" /></a>|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;(-1)r&space;&plus;&space;1p&space;&plus;&space;0s&space;=&space;p-r" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;(-1)r&space;&plus;&space;1p&space;&plus;&space;0s&space;=&space;p-r" title="S = (-1)r + 1p + 0s = p-r" /></a>|
 
 
 So based on the probabilities, you can calculate the payoffs. In the case of our rock-heavy opponent, the payoffs are:
-* R=0
-* P=0.25
-* S=-0.25
+* <a href="https://www.codecogs.com/eqnedit.php?latex=R=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R=0" title="R=0" /></a>
+
+* <a href="https://www.codecogs.com/eqnedit.php?latex=P=0.25" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P=0.25" title="P=0.25" /></a>
+
+* <a href="https://www.codecogs.com/eqnedit.php?latex=S=-0.25" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S=-0.25" title="S=-0.25" /></a>
 
 Since P is he throw with the biggest payoff of all three throws and assuming that the opponent strategy is not going to change at all during the match our best counter-strategy will be to throw Paper every time, being this strategy the most efficient and effective of them all. Meaning that we would gain 0.25 per throw, this meaning that for every 4 throws we will win one more game than we lose.
 
@@ -94,11 +96,11 @@ But as I stated before: two conscious and gamer players can be engaged on a cons
 
 Rock-Paper-Scissors is a symmetric zero-sum game, so:
 
-**R = P = S = 0**
+<a href="https://www.codecogs.com/eqnedit.php?latex=R&space;=&space;P&space;=&space;S&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R&space;=&space;P&space;=&space;S&space;=&space;0" title="R = P = S = 0" /></a>
 
 Since the opponent must select exactly one throw, we also know the probabilities of their throw add up to 100%:
 
-**r + p + s = 1**
+<a href="https://www.codecogs.com/eqnedit.php?latex=r&space;&plus;&space;p&space;&plus;&space;s&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r&space;&plus;&space;p&space;&plus;&space;s&space;=&space;1" title="r + p + s = 1" /></a>
 
 From here we can solve the system of linear equations by substitution using the known values from our previous <a href="#Some Maths behind RPS games"><b>table</b></a>
 
