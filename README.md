@@ -82,4 +82,6 @@ Note that in actual play, this does not mean that the best strategy is to actual
 
 # Bibliography
 * [The Balance of Power: Progression and Equilibrium in Real-Time Strategy Games](https://www.gamasutra.com/blogs/BrandonCasteel/20170306/292982/The_Balance_of_Power_Progression_and_Equilibrium_in_RealTime_StrategyGames.php)
-* 
+* [Intransitive Mechanics](https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/)
+* [Examining the Implementation of Rock, Paper, Scissors, Balance in Video Games](https://www.youtube.com/watch?v=N69Jzzcu57Q)
+* [Perfect Imbalance](https://www.youtube.com/watch?v=e31OSVZF77w)
