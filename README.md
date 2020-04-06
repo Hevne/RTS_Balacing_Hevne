@@ -2,30 +2,47 @@
 My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to talk about the RTS games genre and the main aspects we need to take in account when as a Game Designer we try to balance our game.
 
 ## RTS Balance 
-There can be a misconception that balance is esoteric and only really matters to high level players, but this is fram from accurate, since its the keystone to make an RTS game fun.
+There can be a misconception that balance is esoteric and only really matters to high level players, but this is far from accurate, since its the keystone to make an RTS game fun.
 
 Which is the intention behind balancing? What does "balancing" even mean? Balacing a game is the action of making the game more fair for each faction, staying as close as possible to a 50/50 win rate. But that's only a small part of the umbrella term of "balance". Balance can be truly defined as **any change to the performance or utility of units and other game components.**
 
 As Game Designers we cannot think about balance as just tweaking numbers, it's about enviosioning and guiding player interactions while providing them with more opportunities to pursue their favourite strategies. Earlier I said that balacing an RTS is the central pillar of making the game fun and to be honest, adding new features is a great way of making an RTS funnier too but they're expensive from a development perspective and additional content is pointless if it's not properly balanced.
 
-What would be the point of having 30 units if only 10 of them are useful? 
+What would be the point of having 30 units if only 10 of them are useful?  Having too much content can turn overwhelming for new players to learn, it can lack clarity and can make decisions feel meningless. **Does it really matter which ones I build?**
 
+<br>
 
+![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f850d90a-7d5e-48d4-b487-372a169d612b/d6yvl12-1aa5b1ba-2bee-4422-8ab4-daba2fab5047.png/v1/fill/w_2045,h_391,q_70,strp/starcraft___unit_album__ver_54__wip_by_alianys_d6yvl12-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkwMCIsInBhdGgiOiJcL2ZcL2Y4NTBkOTBhLTdkNWUtNDhkNC1iNDg3LTM3MmExNjlkNjEyYlwvZDZ5dmwxMi0xYWE1YjFiYS0yYmVlLTQ0MjItOGFiNC1kYWJhMmZhYjUwNDcucG5nIiwid2lkdGgiOiI8PTk5MzYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.2S60GxfWTSgrbtkMY83rjNpuiIfOJJNkNPIkCjN6Plw)
 
+<br>
 
+So first of all one must begin by understanding what it is that makes RTS fun, we can say that the fun of RTS games is the act of **crafting, refining, and executing strategies** Having to gather information and make quick decisions against your opponent is also part of the fun. 
+
+Since RTS contain a wide range of tools as units, upgrades, abilities, buildings and so on, it's up to the player **to piece these tools together in ways that form powerful strategies**, from here we can expect the player having fun but not by the number of tools the player has at hand, instead, we know the player will have fun from combinating these tools, creating his own strategy to defeat the enemy faction.
+
+Pursuing even a simple strategy using the mentioned tools contains lots of depth but if the strategy is countered by an imbalance or an overpowered enemy unit that prevents the player from sticking to his strategy there's no way to respond it, ruining the experience for the player, so here we can see the utility of the game balance.
+
+Meticulous balance creates a richer setting for discovering strategies and for reacting when things don't stick to the player's  plan; if a player's strategy gets countered they might still have a wide arsenal of tools that can perform other functions instead of just being made obsolete.
+
+Good balance doesn't just make an RTS game "more balanced." It emphasizes the unique qualities of each unit and ability, creating more depth and decisions about which tools are used and how they're used.The analogy of RTS as a set of tools for players to utilize encourages design of units that have unique qualities, allowing players to field them under many circumstances for various reasons. Flexible RTS design allows for flexible decision making from players, and meaningful decisions broken up into small increments is at the core of what makes RTS games fun. 
+
+*A game is a series of interesting choices - Sid Meier*
+![](https://forums.civfanatics.com/media/civ-6-banner.3815/full)
 
 ### RTS Balance difficulty
 RTS games are so difficult to balance, it really turns into a long and iterative proceess, it becomes inevitable to make mistakes along the way when trying to implement our balance into the game. But why is so difficult and we can expect a lot of mistakes during the process? 
 
 The main reason is that we have to take in account **many variables and each context**. Let's give an example using the game Ashes Of The Singularity: Escalation to proof how huge the amount of variables really is.
 
-![](https://www.stardock.com/ashesofthesingularity/escalation/v275/ashesc_v275_thumb.jpg)
-
 Let’s assume the Athena and Mauler (Both units of AotS) cost the same resources. Imagine you make them fight, only to find that the Athena wins with 20% of its health left. Does this mean the Athena is overpowered and should be nerfed by 20% to compensate? The Athena might overperform in this one specific case, but does the same thing happen if you get 5 Athenas against 5 Maulers, or 50 against 50? Factors such as reload, burst, and projectile speed can make a massive difference when looking at the scalability of an interaction. Let’s assume even in the 50 v 50 scenario, the Athenas win with a 20% advantage.
+
+![](https://www.stardock.com/ashesofthesingularity/escalation/v275/ashesc_v275_thumb.jpg)
 
 At first glance it can seem safe to state that Athenas are overpowered but unfortunatley for us Game Designers, it's never that simple. You can't just put a bunch of units to engage in a fight and compare their direct interactions, yo need to look at the matchups in their totality and the only way to include known and unknown factors is in regular matches.
 
 Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on... Having said that we can take in conclusion that we need to test our balacing features in a real game not just seeing how it performs in a very inaccurate simulation.
+
+![](https://www.buildbox.com/wp-content/uploads/2018/08/Game-Development-Forums.jpg)
 
 
 # Index
