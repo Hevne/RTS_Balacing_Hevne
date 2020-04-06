@@ -54,6 +54,9 @@ Also we have to take into consideration the type of production, the economic man
 * <a href="#Solving the human opponent problem"><b> 4. Solving the human opponent problem</b></a>
 * <a href="#Bibliography"><b> 5. Bibliography</b></a>
 
+# Units balancing
+
+Units should have multiple facets that determine their utility and why a player would want to build them. The Archer is a unit designed to counter the Athena, but they're embedded within a more detailed context. The Athena is a cruiser which costs both Metal and Radioactives, while the Archer is a frigate which only costs Metal, allowing it to be used more flexibly to complement Radioactives-heavy strategies or to burn excess Metal if your Radioactives income suddenly drops. Frigates are also considerably faster than cruisers, which makes Archers useful as a nimble form of harassment. Archers have high damage but low health, which makes them great against buildings, but vulnerable versus Orbitals and area of effect damage. 
 
 <h1 id="Intransitive Mechanics or Rock Paper Scissors"> Intransitive Mechanics or Rock Paper Scissors  </h1>
 
