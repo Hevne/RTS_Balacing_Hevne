@@ -27,6 +27,7 @@ Meticulous balance creates a richer setting for discovering strategies and for r
 Good balance doesn't just make an RTS game "more balanced." It emphasizes the unique qualities of each unit and ability, creating more depth and decisions about which tools are used and how they're used.The analogy of RTS as a set of tools for players to utilize encourages design of units that have unique qualities, allowing players to field them under many circumstances for various reasons. Flexible RTS design allows for flexible decision making from players, and meaningful decisions broken up into small increments is at the core of what makes RTS games fun. 
 
 *A game is a series of interesting choices - Sid Meier*
+
 ![](https://forums.civfanatics.com/media/civ-6-banner.3815/full)
 
 ### RTS Balance difficulty
