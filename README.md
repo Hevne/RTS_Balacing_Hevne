@@ -31,6 +31,7 @@ Good balance doesn't just make an RTS game "more balanced." It emphasizes the un
 ![](https://forums.civfanatics.com/media/civ-6-banner.3815/full)
 
 ### RTS Balance difficulty
+
 RTS games are so difficult to balance, it really turns into a long and iterative proceess, it becomes inevitable to make mistakes along the way when trying to implement our balance into the game. But why is so difficult and we can expect a lot of mistakes during the process? 
 
 The main reason is that we have to take in account **many variables and each context**. Let's give an example using the game Ashes Of The Singularity: Escalation to proof how huge the amount of variables really is.
@@ -43,10 +44,28 @@ At first glance it can seem safe to state that Athenas are overpowered but unfor
 
 Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on... Having said that we can take in conclusion that we need to test our balacing features in a real game not just seeing how it performs in a very inaccurate simulation.
 
+## How do we test if something is un/balanced?
+
+So now we know that we can't fully rely on the data we extract from inaccurate fictitial scenarios where we put two units to fight each other. Now we know we need to test our features in a real game scenario, but we also know that testing is time-consuming and it's difficult to replicate every situation since you need to test the late game in 1v1, 2v2, 3v3, 4v4, different maps, different play styles and skill levels between players. How do we manage to test all these things?
+
+Some ways of testing and gathering data are:
+
+* Lots of varied play testing: Try to play variety of maps, play team games, 1v1s, play against a huge variety of players, try different play styles and seek the unbalance.
+
+* Watching replays and observing: This one is similar to the playtesting way, but even better since when you are observing a match the emotional investment of winning or losing is thrown out, making it a lot easier to identify what's unfair or not fun.
+
+* Variety of feedback: Feedback is a safeguard against making bad decisions. It helps to identify some people you can trust with the quality of feedback and assemble them into beta testing groups. People will suggest things that may have occurred to you but never articulated, or may call you out on an oversight that you never considered.
+
+Even feedback is a very positive and communicative way of finding unbalanced aspects of your game, you can't fully rely on people saying: "This is not fun", "This is unfair" since we have to take in account that these are people who firstly are not happy with some aspect of the game and would like to change it to theis likes. As a Game Designer you must be conscious about how do you envision the game and have a critical vision about which feedback is useful and which differs from your conception of the game. Even so, if many players are pointing towards the same issue then it's worth investigating even if you don't think so.
+
 ![](https://www.buildbox.com/wp-content/uploads/2018/08/Game-Development-Forums.jpg)
 
 
+
+
 # Index
+Now that we know which is our work as Game Designers, how difficult it is and how to do it we can move on into different RTS-core features as: Units, map, skill trees, or resources:
+
 * <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 1. Intransitive Mechanics or Rock Paper Scissors</b></a>
 * <a href="#Why Intransitive Mechanics?"><b> 1.2. Why Intransitive Mechanics?</b></a>
 * <a href="#Some Maths behind RPS games"><b> 2. Some Maths behind RPS games</b></a>
