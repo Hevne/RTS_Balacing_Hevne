@@ -1,7 +1,20 @@
 # Introduction
 My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to talk about the RTS games genre and the main aspects we need to take in account when as a Game Designer we try to balance our game.
 
-## RTS Balance
+## RTS Balance 
+There can be a misconception that balance is esoteric and only really matters to high level players, but this is fram from accurate, since its the keystone to make an RTS game fun.
+
+Which is the intention behind balancing? What does "balancing" even mean? Balacing a game is the action of making the game more fair for each faction, staying as close as possible to a 50/50 win rate. But that's only a small part of the umbrella term of "balance". Balance can be truly defined as **any change to the performance or utility of units and other game components.**
+
+As Game Designers we cannot think about balance as just tweaking numbers, it's about enviosioning and guiding player interactions while providing them with more opportunities to pursue their favourite strategies. Earlier I said that balacing an RTS is the central pillar of making the game fun and to be honest, adding new features is a great way of making an RTS funnier too but they're expensive from a development perspective and additional content is pointless if it's not properly balanced.
+
+What would be the point of having 30 units if only 10 of them are useful? 
+
+
+
+
+
+### RTS Balance difficulty
 RTS games are so difficult to balance, it really turns into a long and iterative proceess, it becomes inevitable to make mistakes along the way when trying to implement our balance into the game. But why is so difficult and we can expect a lot of mistakes during the process? 
 
 The main reason is that we have to take in account **many variables and each context**. Let's give an example using the game Ashes Of The Singularity: Escalation to proof how huge the amount of variables really is.
@@ -12,7 +25,7 @@ Let’s assume the Athena and Mauler (Both units of AotS) cost the same resource
 
 At first glance it can seem safe to state that Athenas are overpowered but unfortunatley for us Game Designers, it's never that simple. You can't just put a bunch of units to engage in a fight and compare their direct interactions, yo need to look at the matchups in their totality and the only way to include known and unknown factors is in regular matches.
 
-Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on...
+Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on... Having said that we can take in conclusion that we need to test our balacing features in a real game not just seeing how it performs in a very inaccurate simulation.
 
 
 # Index
