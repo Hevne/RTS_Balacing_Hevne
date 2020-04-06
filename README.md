@@ -1,5 +1,19 @@
 # Introduction
-My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to explain my research on RTS Balancing focusing on Rock Paper Scissors base.
+My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to talk about the RTS games genre and the main aspects we need to take in account when as a Game Designer we try to balance our game.
+
+## RTS Balance
+RTS games are so difficult to balance, it really turns into a long and iterative proceess, it becomes inevitable to make mistakes along the way when trying to implement our balance into the game. But why is so difficult and we can expect a lot of mistakes during the process? 
+
+The main reason is that we have to take in account **many variables and each context**. Let's give an example using the game Ashes Of The Singularity: Escalation to proof how huge the amount of variables really is.
+
+![](https://www.stardock.com/ashesofthesingularity/escalation/v275/ashesc_v275_thumb.jpg)
+
+Let’s assume the Athena and Mauler (Both units of AotS) cost the same resources. Imagine you make them fight, only to find that the Athena wins with 20% of its health left. Does this mean the Athena is overpowered and should be nerfed by 20% to compensate? The Athena might overperform in this one specific case, but does the same thing happen if you get 5 Athenas against 5 Maulers, or 50 against 50? Factors such as reload, burst, and projectile speed can make a massive difference when looking at the scalability of an interaction. Let’s assume even in the 50 v 50 scenario, the Athenas win with a 20% advantage.
+
+At first glance it can seem safe to state that Athenas are overpowered but unfortunatley for us Game Designers, it's never that simple. You can't just put a bunch of units to engage in a fight and compare their direct interactions, yo need to look at the matchups in their totality and the only way to include known and unknown factors is in regular matches.
+
+Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on...
+
 
 # Index
 * <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 1. Intransitive Mechanics or Rock Paper Scissors</b></a>
