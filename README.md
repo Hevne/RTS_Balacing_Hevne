@@ -56,7 +56,9 @@ Some ways of testing and gathering data are:
 
 * Variety of feedback: Feedback is a safeguard against making bad decisions. It helps to identify some people you can trust with the quality of feedback and assemble them into beta testing groups. People will suggest things that may have occurred to you but never articulated, or may call you out on an oversight that you never considered.
 
-Even feedback is a very positive and communicative way of finding unbalanced aspects of your game, you can't fully rely on people saying: "This is not fun", "This is unfair" since we have to take in account that these are people who firstly are not happy with some aspect of the game and would like to change it to theis likes. As a Game Designer you must be conscious about how do you envision the game and have a critical vision about which feedback is useful and which differs from your conception of the game. Even so, if many players are pointing towards the same issue then it's worth investigating even if you don't think so.
+Even feedback is a very positive and communicative way of finding unbalanced aspects of your game, you can't fully rely on people saying: "This is not fun", "This is unfair" since we have to take in account that these are people who firstly are not happy with some aspect of the game and would like to change it to theis likes. As a Game Designer you must be conscious about how do you envision the game and have a critical vision about which feedback is useful and which differs from your conception of the game. 
+
+Even so, if many players are pointing towards the same issue then it's worth investigating even if you don't think so.
 
 ![](https://www.buildbox.com/wp-content/uploads/2018/08/Game-Development-Forums.jpg)
 
