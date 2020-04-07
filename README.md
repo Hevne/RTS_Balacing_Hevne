@@ -62,6 +62,34 @@ Even feedback is a very positive and communicative way of finding unbalanced asp
 
 Even so, if many players are pointing towards the same issue then it's worth investigating even if you don't think so.
 
+# Tech Trees
+Tech trees can ve conceived as little puzzles that empower the player to personalize the game into something they enjoy, even they use to be simple and isolated tech trees have a very meaningful impact in your game since its going to determine the way the player is going to play and going forward into victory.
+
+Tech trees are a graphic representation of each peace of technology that the game has and how the hierarchy of unlocking each one works.
+
+![](https://steamuserimages-a.akamaihd.net/ugc/23967114491880917/FAAD2CA9F4410BB1A05A3EB5A6DCD991962A5048/)
+*Tech Tree of Age Of Empires: The Age of Kings
+
+Tech trees don't follow an universal set of rules since are directly tied to the nature of the game, even so we can dissect the core aspects of what makes a tech tree a tech tree and these are the nodes.
+
+Each tech tree is composed by connected nodes that form a descendant hierarchy, being the ones at the top of thre hierarchy the lowest tier nodes (easiest to unlock) and the ones at the bottom the highest tier nodes (hardest to unlock). In RTS genre tech trees are usually composed by:
+
+* Units
+* Buildings
+* Units Upgrades
+* Other: Strictly tied to the nature of the game
+
+Usually each node has a description for the dynamics that implies unlocking the node.
+
+## Balacing a Tech Tree
+
+When balancing a tech tree the most important thing in which as a Game Designer we have to focus is in which moment to allow the creation of every type of unit and upgrade.
+
+First, we should gather all the stuff that we want to be unlocked via the Tech Tree dividing it by Units, Buildings and so on, depending on the nature of your game. Once its done you should put it into a graphic form, as an example I'll use the Tech Tree I designed for my Project II Subject at my career.
+
+![](https://raw.githubusercontent.com/Misioneros-Studio/Mythology-Parade/master/Wiki_pics/Design/research%20tree.png)
+
+
 # Resources Gathering
 Resource gathering is probably one of the most important mechanics in an RTS game since we use them for researching, building your army and even raising buildings.
 
