@@ -117,7 +117,7 @@ Building a cost system allows you to put correct prices and determine how much e
 ### Step 3. Create deficit and surplus
 To engage players we need to let them experience the whole range of emotions, the player won't feel the buzz of victory if he hasn't tasted defeat, since the juice of a game comes from balance between difficult & easy, interesting & boring we can apply the same kind of methodology into our game economy system.
 
-Expenses curve may vary in a sine wave, as well as income, or one of them can be linear. In this case, the player will experience a deficit in some periods, a surplus in others. The reaching of maximum profit earnings by the player is similar to the overheated economy, where the game keeps increasing the price of a recently unlocked unit on the tech-tree in order to make the player feel this deficit, but at the same time decreases the price of the first unlocked units, making the player experience a surplus about what before was a deficit.
+The reaching of maximum profit earnings by the player is similar to the overheated economy, where the game keeps increasing the price of a recently unlocked unit on the tech-tree in order to make the player feel this deficit, but at the same time decreases the price of the first unlocked units, making the player experience a surplus about what before was a deficit.
 
 Let's assume we start our game and to produce a worker we need about 50 wheat, and we produce 0.5 wheat per second. The game goes on and at a certain point we unlock the caravel unit, also we are now producing 5 wheat per second. To build the caraval we need 50 lumber but we are only producing 0.2 lumber per second. The player experiences an surplus when producing workers, giving him a feeling of progression but still lacks resources to build the recent unlocked unit, making him experience a deficit.
 
@@ -129,7 +129,6 @@ The game designer should create dependency plots for a period of time ahead, and
 Balacing the game economy can seem like a torturing task to even for the most experienced game designers. However you can adhere to rules, guidelines and models that can help you build your game economy system.
 
 The 4 steps I've covered are a great base for building a balanced game economy, but is important to remember how each game is unique and needs a custom approach which involes continuous monitoring of players behavior.
-
 
 
 # Index
