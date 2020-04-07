@@ -74,10 +74,10 @@ Tech trees don't follow an universal set of rules since are directly tied to the
 
 Each tech tree is composed by connected nodes that form a descendant hierarchy, being the ones at the top of thre hierarchy the lowest tier nodes (easiest to unlock) and the ones at the bottom the highest tier nodes (hardest to unlock). In RTS genre tech trees are usually composed by:
 
-* Units
-* Buildings
-* Units Upgrades
-* Other: Strictly tied to the nature of the game
+* **Units**
+* **Buildings**
+* **Units Upgrades**
+* **Other: Strictly tied to the nature of the game**
 
 Usually each node has a description for the dynamics that implies unlocking the node.
 
@@ -88,6 +88,28 @@ When balancing a tech tree the most important thing in which as a Game Designer 
 First, we should gather all the stuff that we want to be unlocked via the Tech Tree dividing it by Units, Buildings and so on, depending on the nature of your game. Once its done you should put it into a graphic form, as an example I'll use the Tech Tree I designed for my Project II Subject at my career.
 
 ![](https://raw.githubusercontent.com/Misioneros-Studio/Mythology-Parade/master/Wiki_pics/Design/research%20tree.png)
+
+Put in into a graphic form, it is clear to see via the scheme how the player will be unlocking stuff during the game, but that's not all since the nature of our game or the conception we have about how it should be will introduce a lot more aspects to take in acount such as:
+
+* **The time needed to unlock each node:** As higher tier the node we're trying to unlock is, the larger ammount of time we should be spending into researching the node.
+
+* **The requiremenets to unlock each node:** Depending on the nature of your own game this will widely vary. In the example of my project game, you need first to have unlocked one of the previous nodes and at the same time dispose of a tokes called: "Sacrifices" or "Blessings". If you are curiours to know more about how my Tech Tree Works click [here](https://github.com/Misioneros-Studio/Mythology-Parade/wiki/Design)
+
+This two aspects are really difficult to really balance since the progression on the Tech Tree will define the pace and the rythm of the game progression feeling. But using the mechanisms I told you about in the Introduction section it will be just a matter of time until you are capable of balancing the progression rate of the Tech Tree. 
+
+Some of the questions that you as a game designer should ask yourself are: Are the players getting x improvement too soon/late? There is a node that's being ignored by the players? Why? Are the unlocked nodes significant and have a real impact on your gameplay?
+
+## Some Tips When Building a Tech Tree
+
+* **Know what to acentuate:** Know the gating components of your RTS game, think about the different strategies of the players and how will the Tech Tree impact on those components or strategies. What makes my RTS unique from the rest? Try to accentuate those aspects buffing it with the Tech Tree since your players are playing your game and not another one thanks to those aspects.
+
+* **When should the player be able to get X?::**  Pacing the progression of a tech tree is vital for making it a positive aspect of your game. Lower tier nodes should be simple but potent, hooking the player immediately, in the other hand, higher tiers should add more complex dynamics knowing that the player is ready to understand them.
+
+* **Make the player guess right:** The low level nodes should be an indicative of what the player can expect later if he goes on into a certain brench of the tree. Using as example the tech tree of my Project II, when the tree forks into Lawful/Chaotic paths, the first units are a clear indicative of what kind of brench he is investing his time. 
+
+* **Do more than just give plain power:** Don't just add buffs to your current buildings or units, try to surprise your players constantly with new stuff that makes them truly feel a sense of progression. Increase the core functionalities of the game, don't rely just in numbers!
+
+* **Don't forget your roots:** A common mistake in Tech Trees and also Talent Trees is that the first nodes become uslees when a player reaches the highest tier nodes. As a Game Designer you will want to balance your tech tree such as a big puzzle constantly growing and summing its parts, making each node to have an impact in both early and late game.
 
 
 # Resources Gathering
