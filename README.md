@@ -68,7 +68,7 @@ Tech trees can ve conceived as little puzzles that empower the player to persona
 Tech trees are a graphic representation of each peace of technology that the game has and how the hierarchy of unlocking each one works.
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/23967114491880917/FAAD2CA9F4410BB1A05A3EB5A6DCD991962A5048/)
-*Tech Tree of Age Of Empires: The Age of Kings
+*Tech Tree of Age Of Empires: The Age of Kings*
 
 Tech trees don't follow an universal set of rules since are directly tied to the nature of the game, even so we can dissect the core aspects of what makes a tech tree a tech tree and these are the nodes.
 
