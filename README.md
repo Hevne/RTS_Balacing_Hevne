@@ -123,7 +123,7 @@ Let's assume we start our game and to produce a worker we need about 50 wheat, a
 
 ### Step 4. Decomposition
 
-The game designer should create dependency plots for a period of time ahead, and break them up into segments and balance them inside these segments (First worker-First caravel | First caravel-First siege tower| and so on), getting the zero-sum game as the output. This means that if you count all the total revenues and all expenses, they will add up to 0 and this is an example of a perfectly balanced economy.
+The game designer should create dependency plots for a period of time ahead, and break them up into segments and balance them inside these segments (First worker-First caravel ... First caravel-First siege tower ... and so on), getting the zero-sum game as the output. This means that if you count all the total revenues and all expenses, they will add up to 0 and this is an example of a perfectly balanced economy.
 
 ### So, that's it?
 Balacing the game economy can seem like a torturing task to even for the most experienced game designers. However you can adhere to rules, guidelines and models that can help you build your game economy system.
