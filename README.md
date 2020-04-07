@@ -50,11 +50,11 @@ So now we know that we can't fully rely on the data we extract from inaccurate f
 
 Some ways of testing and gathering data are:
 
-* Lots of varied play testing: Try to play variety of maps, play team games, 1v1s, play against a huge variety of players, try different play styles and seek the unbalance.
+* **Lots of varied play testing:** Try to play variety of maps, play team games, 1v1s, play against a huge variety of players, try different play styles and seek the unbalance.
 
-* Watching replays and observing: This one is similar to the playtesting way, but even better since when you are observing a match the emotional investment of winning or losing is thrown out, making it a lot easier to identify what's unfair or not fun.
+* **Watching replays and observing:** This one is similar to the playtesting way, but even better since when you are observing a match the emotional investment of winning or losing is thrown out, making it a lot easier to identify what's unfair or not fun.
 
-* Variety of feedback: Feedback is a safeguard against making bad decisions. It helps to identify some people you can trust with the quality of feedback and assemble them into beta testing groups. People will suggest things that may have occurred to you but never articulated, or may call you out on an oversight that you never considered.
+* **Variety of feedback:** Feedback is a safeguard against making bad decisions. It helps to identify some people you can trust with the quality of feedback and assemble them into beta testing groups. People will suggest things that may have occurred to you but never articulated, or may call you out on an oversight that you never considered.
 
 ![](https://www.buildbox.com/wp-content/uploads/2018/08/Game-Development-Forums.jpg)
 
@@ -81,9 +81,17 @@ At the same time we also let the door open for the player to decide if his strat
 As I said in the last section, resource gathering offers a huge flexibility for the designer and there's not really a way to prove how a resource gathering system is either balanced or unbalanced since this will be determined by the context of the play scenario and how the game is supposed to be.
 
 Some things a designer must take in account when designing a resource system are: 
-* The rarity Index:  This is about the frequency of resources spawning along the map. Let's assume our game has three types of resources: Wood, Stone and Metal, being the first one the most common one to find and the last one the rarest. Why would we, game designers to create a low-rate spawning resource? High-quality units, the last building improvement and so on... The most common resource will be the one that the player will be needing during the whole match, the rarest resource instead will be the one to provide with the player with the most overpowered tools to defeat the enemy.
 
-*
+* **The rarity Index:**  This is about the frequency of resources spawning along the map. Let's assume our game has three types of resources: Wood, Stone and Metal, being the first one the most common one to find and the last one the rarest. Why would we, game designers to create a low-rate spawning resource? High-quality units, the last building improvement and so on... The most common resource will be the one that the player will be needing during the whole match, the rarest resource instead will be the one to provide with the player with the most overpowered tools to defeat the enemy.
+
+* **How many resource types?:** As I said during the introduction, a lot of features don't make the game more interesting and can lead to development high costs and a lack of clarity for new players. How many resource types will your game need to work well with? Don't be shy about cut down heavily the kinds of resources available
+
+* **Finite vs infinite resources:** Infinite resources usually tend to encourage players to wall themselves in turtleing mode and it can led to a boring gameplay since the only way of losing your income would be losing your base. If resources keep running out and force you to migrate throughout the game or expanding your controlled zones, leading to a more interesting, risky and strategy based gameplay.
+
+* **Smooth vs Rough resource income:** Rough resource income is seen on systems that put too much emphasis on worker units, making them expensive and long time steps to gather resources, it can turn annoying since the importance of the gatherer unit is so high.
+Smooth resource income however, seen in games such as Starcraft and Warcraft prioritize cheap workers and limit the certain amount of income per minute by restricting the total amount of gathering units. Smooth income based will generate a system where a good player can harvest more than an inexperienced one.
+
+![](https://bnetcmsus-a.akamaihd.net/cms/blog_header/bh/BH7HQWEVCV7B1571781106843.jpg)
 
 # Index
 Now that we know which is our work as Game Designers, how difficult it is and how to do it we can move on into different RTS-core features as: Units, map, skill trees, or resources:
@@ -112,7 +120,7 @@ Having said that, I'm going to cover how to balance the units combat system base
 
 Intransitive mechanics can be found constantly in any kind of games. In fighting games is a common pattern that normal attacks are weak against a block, block are weak against throws and throws weak against attacks. In Real time strategy games, RTS, we see too a common pattern in which fliers defeat infantry, infantry is strong against archers and archers are a good choice to shoot at fliers.
 
-Sometimes this relathion is not that obvious, for example in a game as League Of Legends in which we have different kind of champions for the jungle role, (Tanks, assassins, fighters...) Its not so obvious to see which kind of champion is strong against which but we can certainly stablish a pattern. Tanks>Assassins, Assassins>Fighters, Fighters>Tanks. A lot of times the current state of the meta and of the maths behind each champion states which is the current relation for the rock papers scissors formula.
+Sometimes this relation is not that obvious, for example in a game as League Of Legends in which we have different kind of champions for the jungle role, (Tanks, assassins, fighters...) Its not so obvious to see which kind of champion is strong against which but we can certainly stablish a pattern. Tanks>Assassins, Assassins>Fighters, Fighters>Tanks. A lot of times the current state of the meta and of the maths behind each champion states which is the current relation for the rock papers scissors formula.
 
 Another not so clear example is a game in which one kind of unit is an expert in long-range attacks, having advantage over short-range attack units. But a short-range attacker which has the ability of turning invisible or moving really fast across the map can counter this range advantage by making the long-range unit weak against attacks.
 
