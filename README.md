@@ -1,7 +1,7 @@
 # Introduction
 My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to talk about the RTS games genre and the main aspects we need to take in account when as a Game Designer we try to balance our game.
 
-## RTS Balance 
+# RTS Balance 
 There can be a misconception that balance is esoteric and only really matters to high level players, but this is far from accurate, since its the keystone to make an RTS game fun.
 
 Which is the intention behind balancing? What does "balancing" even mean? Balacing a game is the action of making the game more fair for each faction, staying as close as possible to a 50/50 win rate. But that's only a small part of the umbrella term of "balance". Balance can be truly defined as **any change to the performance or utility of units and other game components.**
@@ -30,7 +30,7 @@ Good balance doesn't just make an RTS game "more balanced." It emphasizes the un
 
 ![](https://forums.civfanatics.com/media/civ-6-banner.3815/full)
 
-### RTS Balance difficulty
+## RTS Balance difficulty
 
 RTS games are so difficult to balance, it really turns into a long and iterative proceess, it becomes inevitable to make mistakes along the way when trying to implement our balance into the game. But why is so difficult and we can expect a lot of mistakes during the process? 
 
@@ -44,7 +44,7 @@ At first glance it can seem safe to state that Athenas are overpowered but unfor
 
 Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on... Having said that we can take in conclusion that we need to test our balacing features in a real game not just seeing how it performs in a very inaccurate simulation.
 
-### How do we test if something is un/balanced?
+## How do we test if something is un/balanced?
 
 So now we know that we can't fully rely on the data we extract from inaccurate fictitial scenarios where we put two units to fight each other. Now we know we need to test our features in a real game scenario, but we also know that testing is time-consuming and it's difficult to replicate every situation since you need to test the late game in 1v1, 2v2, 3v3, 4v4, different maps, different play styles and skill levels between players. How do we manage to test all these things?
 
