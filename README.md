@@ -44,7 +44,7 @@ At first glance it can seem safe to state that Athenas are overpowered but unfor
 
 Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on... Having said that we can take in conclusion that we need to test our balacing features in a real game not just seeing how it performs in a very inaccurate simulation.
 
-## How do we test if something is un/balanced?
+### How do we test if something is un/balanced?
 
 So now we know that we can't fully rely on the data we extract from inaccurate fictitial scenarios where we put two units to fight each other. Now we know we need to test our features in a real game scenario, but we also know that testing is time-consuming and it's difficult to replicate every situation since you need to test the late game in 1v1, 2v2, 3v3, 4v4, different maps, different play styles and skill levels between players. How do we manage to test all these things?
 
@@ -62,8 +62,28 @@ Even so, if many players are pointing towards the same issue then it's worth inv
 
 ![](https://www.buildbox.com/wp-content/uploads/2018/08/Game-Development-Forums.jpg)
 
+# Resources Gathering
+Resource gathering is probably one of the most important mechanics in an RTS game since we use them for researching, building your army and even raising buildings.
 
+Resource gathering systems are very diverse and offer a wide flexibility for the designer to stablish how wants the system to be according to his game conception. Warhammer use resource areas which slowly increase your stock over time, Starcraft have Minerals that can be gathered and so on.
 
+The style of resource gathering in a game will heavily dictate how the game is played, it will create a constant flux for gathering units? or will be more like a king of the hill based system?
+
+![](https://i.pinimg.com/originals/e1/08/91/e1089110c76d068ae4206f26abf4058d.gif)
+
+Gathering systems imply the ability to attack/deny resource gathering of your opponent. This means that we let the door open for a viable strategy for an indirect win rather than immediately. If we keep on destroying the gathering system of our enemy it will lead to our enemy lacking resources to buy/upgrade tools to defeat us, manipulating in that way our opponents income.
+
+At the same time we also let the door open for the player to decide if his strategy will be invest in economy or a rush based one. This helps your game to gain a lot of depth and it means a lot of risk management. The player will have to ask himself how much can he spend on gathering rather than on defending. 
+
+*Although Civilization VI is not an RTS, there are 5 ways to assure your victory (Culture, Science, Economy, Faith or Militar based) This makes the gameplay gain a lot of depth and making the player think about how he is supposed to play according to the circumstances.
+
+## Some tips about Resource Gathering 
+As I said in the last section, resource gathering offers a huge flexibility for the designer and there's not really a way to prove how a resource gathering system is either balanced or unbalanced since this will be determined by the context of the play scenario and how the game is supposed to be.
+
+Some things a designer must take in account when designing a resource system are: 
+* The rarity Index:  This is about the frequency of resources spawning along the map. Let's assume our game has three types of resources: Wood, Stone and Metal, being the first one the most common one to find and the last one the rarest. Why would we, game designers to create a low-rate spawning resource? High-quality units, the last building improvement and so on... The most common resource will be the one that the player will be needing during the whole match, the rarest resource instead will be the one to provide with the player with the most overpowered tools to defeat the enemy.
+
+*
 
 # Index
 Now that we know which is our work as Game Designers, how difficult it is and how to do it we can move on into different RTS-core features as: Units, map, skill trees, or resources:
@@ -77,7 +97,14 @@ Now that we know which is our work as Game Designers, how difficult it is and ho
 
 # Units balancing
 
-Units should have multiple facets that determine their utility and why a player would want to build them. The Archer is a unit designed to counter the Athena, but they're embedded within a more detailed context. The Athena is a cruiser which costs both Metal and Radioactives, while the Archer is a frigate which only costs Metal, allowing it to be used more flexibly to complement Radioactives-heavy strategies or to burn excess Metal if your Radioactives income suddenly drops. Frigates are also considerably faster than cruisers, which makes Archers useful as a nimble form of harassment. Archers have high damage but low health, which makes them great against buildings, but vulnerable versus Orbitals and area of effect damage. 
+Units balancing is one of the core things we need to priorize when balancing our game since it will determine which outcome will have every engaged fight between two players. Although it can seem that units balancing is just about setting numbers, strengths and weaknesses is a bit more complex than just that.
+
+Units should have multiple facets that determine their utility and why a player would want to build them. Using again as an example Ashes of the Singularity, the Archer is a unit designed to counter the Athena, but they're embedded within a more detailed context. The Athena is a cruiser which costs both Metal and Radioactives (both resources of the game), while the Archer is a frigate which only costs Metal, allowing it to be used more flexibly to complement Radioactives-heavy strategies or to burn excess Metal if your Radioactives income suddenly drops. Frigates are also considerably faster than cruisers, which makes Archers useful as a nimble form of harassment. 
+Archers have high damage but low health, which makes them great against buildings, but vulnerable versus Orbitals and area of effect damage. 
+
+We can see how balacing the resources needed to produce each unit is too a core component of units mechanic, in that way we let the door open for the player to create his own strategy not only focused on countering units.
+
+Having said that, I'm going to cover how to balance the units combat system based on RPS (Rock Papers Scissors) base.
 
 <h1 id="Intransitive Mechanics or Rock Paper Scissors"> Intransitive Mechanics or Rock Paper Scissors  </h1>
 
