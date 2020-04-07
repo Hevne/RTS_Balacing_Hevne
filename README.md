@@ -93,6 +93,45 @@ Smooth resource income however, seen in games such as Starcraft and Warcraft pri
 
 ![](https://bnetcmsus-a.akamaihd.net/cms/blog_header/bh/BH7HQWEVCV7B1571781106843.jpg)
 
+# Game Economy System
+Now that we know the basics for gathering resources is time to talk about the Game Economy. Every RTS game has an internal economy in form of resource gathering and managing these resources. Withouth the game economy system neither the Units, Buildings or Tech Tree would have sense of being.
+
+In spite of the fact that in small companies creation of the game economy often becomes a responsibility of a game designer, economic expertise is extremely important for balancing: it allows to see the big picture, draw parallels with real life utilizing various scientific methodologies.
+
+So, what are the basic steps in creating a balanced in-game economy?
+
+### Step 1. Define investment and non-investment resources
+Investment resources are those that influence the speed at which the player receives the main value of the game. Let's assume we need a certain ammount of lumber in order to upgrade our encampment building and in that way speed up our units production time and at the same time we would be speeding up our victory. 
+
+If we talk about non-investment resources following the same example I used before, time would be the non-investment resource since its the resource needed to product a certain ammount of units over time but we cannot use time to reduce the time needed to produce units, it would be kind of Inception.
+
+Usually, resources of all types are described by the game designer at GDD creation, but the game economy designer still needs to carefully check all the mechanics to spot any additional resources that were not taken into account.
+
+### Step 2. Build a cost system
+When making progress, players earn in-game currency or resources that unlock certain content types or new tools for their progression. 
+
+Building a cost system allows you to put correct prices and determine how much everything is worth. For example, a player gets 60 stones for building a quarry on a mountain. How often will they get these 60 stones? At what point in time will they collect, for example, the 3,000 stones needed for a building upgrade? Having such a schedule, the game economy designer adjusts the player's income and expenses for all the in-game resources.
+
+![](https://wowenomics.files.wordpress.com/2009/01/cropped-gold-coins-2.jpg)
+
+### Step 3. Create deficit and surplus
+To engage players we need to let them experience the whole range of emotions, the player won't feel the buzz of victory if he hasn't tasted defeat, since the juice of a game comes from balance between difficult & easy, interesting & boring we can apply the same kind of methodology into our game economy system.
+
+Expenses curve may vary in a sine wave, as well as income, or one of them can be linear. In this case, the player will experience a deficit in some periods, a surplus in others. The reaching of maximum profit earnings by the player is similar to the overheated economy, where the game keeps increasing the price of a recently unlocked unit on the tech-tree in order to make the player feel this deficit, but at the same time decreases the price of the first unlocked units, making the player experience a surplus about what before was a deficit.
+
+Let's assume we start our game and to produce a worker we need about 50 wheat, and we produce 0.5 wheat per second. The game goes on and at a certain point we unlock the caravel unit, also we are now producing 5 wheat per second. To build the caraval we need 50 lumber but we are only producing 0.2 lumber per second. The player experiences an surplus when producing workers, giving him a feeling of progression but still lacks resources to build the recent unlocked unit, making him experience a deficit.
+
+### Step 4. Decomposition
+
+The game designer should create dependency plots for a period of time ahead, and break them up into segments and balance them inside these segments (First worker-First caravel | First caravel-First siege tower| and so on), getting the zero-sum game as the output. This means that if you count all the total revenues and all expenses, they will add up to 0 and this is an example of a perfectly balanced economy.
+
+### So, that's it?
+Balacing the game economy can seem like a torturing task to even for the most experienced game designers. However you can adhere to rules, guidelines and models that can help you build your game economy system.
+
+The 4 steps I've covered are a great base for building a balanced game economy, but is important to remember how each game is unique and needs a custom approach which involes continuous monitoring of players behavior.
+
+
+
 # Index
 Now that we know which is our work as Game Designers, how difficult it is and how to do it we can move on into different RTS-core features as: Units, map, skill trees, or resources:
 
