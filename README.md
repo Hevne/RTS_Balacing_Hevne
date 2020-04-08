@@ -517,5 +517,5 @@ To finish, AI is quite hard to balance since it depends on a highly consistent a
 
 ***About AI***
 
-* [How AI is balanced?](https://gamedev.stackexchange.com/questions/127779/how-ai-is-balanced-across-different-type-of-races-in-rts-games)
+* [How AI is balanced on RTS games?](https://gamedev.stackexchange.com/questions/127779/how-ai-is-balanced-across-different-type-of-races-in-rts-games)
 
