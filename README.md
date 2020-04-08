@@ -33,13 +33,19 @@ My name is Eudald Garrofe, I'm a student from CITM's videogames design & develop
 
 * <a href="#Players Route"><b> 5.1.3 Players Route</b></a>
 
-* <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 1. Intransitive Mechanics or Rock Paper Scissors</b></a>
-* <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 1. Intransitive Mechanics or Rock Paper Scissors</b></a>
-* <a href="#Why Intransitive Mechanics?"><b> 1.2. Why Intransitive Mechanics?</b></a>
-* <a href="#Some Maths behind RPS games"><b> 2. Some Maths behind RPS games</b></a>
-* <a href="#Tactics taken in account on an RTS"><b> 3. Tactics taken in account on an RTS</b></a>
-* <a href="#Solving the human opponent problem"><b> 4. Solving the human opponent problem</b></a>
-* <a href="#Bibliography"><b> 5. Bibliography</b></a>
+* <a href="#Units balancing"><b> 6. Units balancing</b></a>
+
+* <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 6.1 Intransitive Mechanics or Rock Paper Scissors</b></a>
+
+* <a href="#Why Intransitive Mechanics?"><b> 6.1.2 Why Intransitive Mechanics?</b></a>
+
+* <a href="#Some Maths behind RPS games"><b> 6.2 Some Maths behind RPS games</b></a>
+
+* <a href="#Tactics taken in account on an RTS"><b> 6.3 Tactics taken in account on an RTS</b></a>
+
+* <a href="#Solving the human opponent problem"><b> 6.4 Solving the human opponent problem</b></a>
+
+* <a href="#Bibliography"><b> 7. Bibliography</b></a>
 
 <h1 id="RTS Balance"> RTS Balance   </h1>
 
