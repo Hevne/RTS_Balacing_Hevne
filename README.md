@@ -47,7 +47,7 @@ My name is Eudald Garrofe, [Hevne](https://github.com/Hevne) on GitHub, I'm a st
 
   * <a href="#Solving the human opponent problem"><b> 6.4 Solving the human opponent problem</b></a>
   
-* <a href="#AI Balance"><b> 7. Units balancing</b></a>
+* <a href="#AI Balance"><b> 7. AI Balance</b></a>
 
 * <a href="#Sources"><b> 8. Sources</b></a>
 
