@@ -425,7 +425,7 @@ When humans try to play a game randomly they tend to not be quite good at it, so
 
 So the solution of 1:1:1 does not say which throw you must choose at any given time **(that is in fact where the skill of the game comes in)**, but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
 
-<h1 id="AI Balance"> AI Balance </h2>
+<h1 id="AI Balance"> AI Balance </h1>
 
 AI Balance is a core aspect when talking about balance on an RTS since if the AI is not correctly balanced according to all the features of your game the balance done previously can become useless. Is your AI not competent enough? It turns out to be a nightmare for your players? Why? How to solve these things?
 
