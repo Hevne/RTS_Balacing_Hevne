@@ -103,7 +103,7 @@ Some of the questions that you as a game designer should ask yourself are: Are t
 
 * **Know what to acentuate:** Know the gating components of your RTS game, think about the different strategies of the players and how will the Tech Tree impact on those components or strategies. What makes my RTS unique from the rest? Try to accentuate those aspects buffing it with the Tech Tree since your players are playing your game and not another one thanks to those aspects.
 
-* **When should the player be able to get X?::**  Pacing the progression of a tech tree is vital for making it a positive aspect of your game. Lower tier nodes should be simple but potent, hooking the player immediately, in the other hand, higher tiers should add more complex dynamics knowing that the player is ready to understand them.
+* **When should the player be able to get X?:**  Pacing the progression of a tech tree is vital for making it a positive aspect of your game. Lower tier nodes should be simple but potent, hooking the player immediately, in the other hand, higher tiers should add more complex dynamics knowing that the player is ready to understand them.
 
 * **Make the player guess right:** The low level nodes should be an indicative of what the player can expect later if he goes on into a certain brench of the tree. Using as example the tech tree of my Project II, when the tree forks into Lawful/Chaotic paths, the first units are a clear indicative of what kind of brench he is investing his time. 
 
@@ -140,6 +140,8 @@ Some things a designer must take in account when designing a resource system are
 
 * **Smooth vs Rough resource income:** Rough resource income is seen on systems that put too much emphasis on worker units, making them expensive and long time steps to gather resources, it can turn annoying since the importance of the gatherer unit is so high.
 Smooth resource income however, seen in games such as Starcraft and Warcraft prioritize cheap workers and limit the certain amount of income per minute by restricting the total amount of gathering units. Smooth income based will generate a system where a good player can harvest more than an inexperienced one.
+
+* **Time as a resource:** Any well designed RTS game will take into account the time when producing units or buildings, moving units, gathering other resources and so on... This adds a lot of depth and increases the difficulty of each decision that a player will be forced to make, forcing the player to decide and prioritize on what is he going to do.
 
 ![](https://bnetcmsus-a.akamaihd.net/cms/blog_header/bh/BH7HQWEVCV7B1571781106843.jpg)
 
@@ -180,6 +182,58 @@ Balacing the game economy can seem like a torturing task to even for the most ex
 
 The 4 steps I've covered are a great base for building a balanced game economy, but is important to remember how each game is unique and needs a custom approach which involes continuous monitoring of players behavior.
 
+# Map Structure
+
+When it comes to balancing maps on an RTS game and how we should structure them, the most important thing we must take into account is that maps from a competitive-based RTS are so much different from a campaign-based RTS map. So we're going to divide Map Structure into two classes: Competitive and Campaign
+
+Map balancing is probably one of the aspects that requires lest maths working to balance it properly since it's more like about gameplay features, and terrain. Having said that let's get into it. For both competitive and campaign map balance for an RTS, the best way to conceptualize a map is through drawings, diagrams and schemes. Drawings of how the map will be structured, which elements you will use in the map, and how you would dispose them and the routes the player could take. The same goes for schemes and diagrams.
+
+## Competitive Maps
+
+Competitive maps focus on equality between both players and encouraging both of them in finding each other.
+
+### Map Symmetry
+
+The most important thing and the more differentiating trait about competitive maps structure is **Symmetry**. The most simple, yet most effective way to make a balanced RTS map for a competitve game is to make it symmetrical in order to prevent any player from having an advantage over the other in certain areas.
+
+Also, symmetry is used to avoid unfair advantages at spawning points, supressing in that way things as "Where is he?" If a player knows for sure in which direction he will encounter the enemy base.
+
+*As an example, I'll be illustrating the map symmetry on a map from Blizzard's game Starcraft II.*
+
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/symmetry.png)
+
+Each player starts on one of the corners of the map, being both of them provided with the same ammounts of resources. We can see how the map is really divided into 4 symmetrycal quads. 
+
+### Gameplay elements
+
+Gameplay elements follow the symmetric structure of the map, being scattered around it following a symmetric pattern, the symmetrical distribution of these elements assures that any player is going to have an avantage over the other when it comes to resource gathering. Even elements as the tallgrass (hide zones) or the observatories (watch points) are symmetrical in that way.
+
+The map designer should set the resources in a way that encourages the players to slowly go towards each other. That can be seen in the bonus resources areas (Rich Mineral) in order to force a combat engage between both players
+
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/Map%20gmply.png)
+
+However, things such as textures, backgrounds or decorative tiles which designers call "non gameplay elements" should'nt be symmetrical at all, since that would give an artificial feeling for the players during the game. Specially we can see this in the background of this particular map.
+
+
+### Players Route
+
+For achieving succesfully the crafting of a map, the most useful tools to use are squetches and schemes. Squetches are incredibly important to assure that the map and gameplay elements of the map are symmetrical, and for drawing the possible paths that players could take
+
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/PACE.png)
+
+## Campaign Maps
+
+When talking about campaign maps its important to keep focused on presenting clear objectives to the player and also giving a sense of progression through the map. For campaign maps there is no need to be symmetrical since you are fighting against an AI and if you are on advantage or disadvantage would be the decision of the game designer.
+
+The player must be encouraged by his progression, feel empowered at each step he takes while trying to fulfill the main objective of the map. For Illustrating this I'm gonna be using a map from Warcraft II called Badlands.
+
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/MAPWCFT.png?raw=true)
+
+First of all we can see how the gameplay elements of the map aren't symmetrical anymore and the terrain is build in a more scattered way, encouraging the players to explore and giving them a bigger sense of discovering.
+
+The goal or objective that is presented to the player is to escort Cho'Gall (A Warcraft character) to Grim'Batol, in order to accomplish this task the player will have to destroy the Alliance fortresses that separate him from Grim'Batol. The player can choose between different paths and strategies in order to accomplish that making him feel great and intelligent when fulfilling the objective but the truth is that the one guiding him is the map designer.
+
+We can see how are certain zones which main use is to be built on, creating a feeling of progression through the map for the player.
 
 # Index
 Now that we know which is our work as Game Designers, how difficult it is and how to do it we can move on into different RTS-core features as: Units, map, skill trees, or resources:
