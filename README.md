@@ -1,7 +1,17 @@
 # Introduction
 My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to talk about the RTS games genre and the main aspects we need to take in account when as a Game Designer we try to balance our game.
 
-# RTS Balance 
+# Index
+
+* <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 1. Intransitive Mechanics or Rock Paper Scissors</b></a>
+* <a href="#Why Intransitive Mechanics?"><b> 1.2. Why Intransitive Mechanics?</b></a>
+* <a href="#Some Maths behind RPS games"><b> 2. Some Maths behind RPS games</b></a>
+* <a href="#Tactics taken in account on an RTS"><b> 3. Tactics taken in account on an RTS</b></a>
+* <a href="#Solving the human opponent problem"><b> 4. Solving the human opponent problem</b></a>
+* <a href="#Bibliography"><b> 5. Bibliography</b></a>
+
+<h1 id="RTS Balance"> RTS Balance   </h1>
+
 There can be a misconception that balance is esoteric and only really matters to high level players, but this is far from accurate, since its the keystone to make an RTS game fun.
 
 Which is the intention behind balancing? What does "balancing" even mean? Balacing a game is the action of making the game more fair for each faction, staying as close as possible to a 50/50 win rate. But that's only a small part of the umbrella term of "balance". Balance can be truly defined as **any change to the performance or utility of units and other game components.**
@@ -30,7 +40,8 @@ Good balance doesn't just make an RTS game "more balanced." It emphasizes the un
 
 ![](https://forums.civfanatics.com/media/civ-6-banner.3815/full)
 
-## RTS Balance difficulty
+<h2 id="RTS Balance difficulty"> RTS Balance difficulty   </h2>
+
 
 RTS games are so difficult to balance, it really turns into a long and iterative proceess, it becomes inevitable to make mistakes along the way when trying to implement our balance into the game. But why is so difficult and we can expect a lot of mistakes during the process? 
 
@@ -44,7 +55,7 @@ At first glance it can seem safe to state that Athenas are overpowered but unfor
 
 Also we have to take into consideration the type of production, the economic management, which factions is fighting against which, the synergy with other unit types, abiities, additional mechanics and a large and so on... Having said that we can take in conclusion that we need to test our balacing features in a real game not just seeing how it performs in a very inaccurate simulation.
 
-## How do we test if something is un/balanced?
+<h2 id="How do we test if something is un/balanced?">  How do we test if something is un/balanced?   </h2>
 
 So now we know that we can't fully rely on the data we extract from inaccurate fictitial scenarios where we put two units to fight each other. Now we know we need to test our features in a real game scenario, but we also know that testing is time-consuming and it's difficult to replicate every situation since you need to test the late game in 1v1, 2v2, 3v3, 4v4, different maps, different play styles and skill levels between players. How do we manage to test all these things?
 
@@ -62,7 +73,10 @@ Even feedback is a very positive and communicative way of finding unbalanced asp
 
 Even so, if many players are pointing towards the same issue then it's worth investigating even if you don't think so.
 
-# Tech Trees
+Now that we know which is our work as Game Designers when it comes to balancing, how difficult it is and how to test it, we can move on into different RTS-core features that need a proper balance such as: Units, Maps, Tech Trees, Resources or even AI. 
+
+<h1 id="Tech Trees"> Tech Trees  </h1>
+
 Tech trees can ve conceived as little puzzles that empower the player to personalize the game into something they enjoy, even they use to be simple and isolated tech trees have a very meaningful impact in your game since its going to determine the way the player is going to play and going forward into victory.
 
 Tech trees are a graphic representation of each peace of technology that the game has and how the hierarchy of unlocking each one works.
@@ -81,7 +95,7 @@ Each tech tree is composed by connected nodes that form a descendant hierarchy, 
 
 Usually each node has a description for the dynamics that implies unlocking the node.
 
-## Balacing a Tech Tree
+<h2 id="Balacing a Tech Tree">  Balacing a Tech Tree   </h2>
 
 When balancing a tech tree the most important thing in which as a Game Designer we have to focus is in which moment to allow the creation of every type of unit and upgrade.
 
@@ -99,7 +113,7 @@ This two aspects are really difficult to really balance since the progression on
 
 Some of the questions that you as a game designer should ask yourself are: Are the players getting x improvement too soon/late? There is a node that's being ignored by the players? Why? Are the unlocked nodes significant and have a real impact on your gameplay?
 
-## Some Tips When Building a Tech Tree
+<h2 id="Some Tips When Building a Balanced Tech Tree">  Some Tips When Building a Balanced Tech Tree   </h2>
 
 * **Know what to acentuate:** Know the gating components of your RTS game, think about the different strategies of the players and how will the Tech Tree impact on those components or strategies. What makes my RTS unique from the rest? Try to accentuate those aspects buffing it with the Tech Tree since your players are playing your game and not another one thanks to those aspects.
 
@@ -111,8 +125,8 @@ Some of the questions that you as a game designer should ask yourself are: Are t
 
 * **Don't forget your roots:** A common mistake in Tech Trees and also Talent Trees is that the first nodes become uslees when a player reaches the highest tier nodes. As a Game Designer you will want to balance your tech tree such as a big puzzle constantly growing and summing its parts, making each node to have an impact in both early and late game.
 
+<h1 id="Resources Gathering"> Resources Gathering  </h1>
 
-# Resources Gathering
 Resource gathering is probably one of the most important mechanics in an RTS game since we use them for researching, building your army and even raising buildings.
 
 Resource gathering systems are very diverse and offer a wide flexibility for the designer to stablish how wants the system to be according to his game conception. Warhammer use resource areas which slowly increase your stock over time, Starcraft have Minerals that can be gathered and so on.
@@ -127,7 +141,9 @@ At the same time we also let the door open for the player to decide if his strat
 
 *Although Civilization VI is not an RTS, there are 5 ways to assure your victory (Culture, Science, Economy, Faith or Militar based) This makes the gameplay gain a lot of depth and making the player think about how he is supposed to play according to the circumstances.
 
-## Some tips about Resource Gathering 
+
+<h2 id="Some tips about Balanced Resource Gathering">  Some tips about Balanced Resource Gathering   </h2>
+
 As I said in the last section, resource gathering offers a huge flexibility for the designer and there's not really a way to prove how a resource gathering system is either balanced or unbalanced since this will be determined by the context of the play scenario and how the game is supposed to be.
 
 Some things a designer must take in account when designing a resource system are: 
@@ -145,54 +161,60 @@ Smooth resource income however, seen in games such as Starcraft and Warcraft pri
 
 ![](https://bnetcmsus-a.akamaihd.net/cms/blog_header/bh/BH7HQWEVCV7B1571781106843.jpg)
 
-# Game Economy System
+<h1 id="Game Economy System"> Game Economy System  </h1>
+
 Now that we know the basics for gathering resources is time to talk about the Game Economy. Every RTS game has an internal economy in form of resource gathering and managing these resources. Withouth the game economy system neither the Units, Buildings or Tech Tree would have sense of being.
 
 In spite of the fact that in small companies creation of the game economy often becomes a responsibility of a game designer, economic expertise is extremely important for balancing: it allows to see the big picture, draw parallels with real life utilizing various scientific methodologies.
 
 So, what are the basic steps in creating a balanced in-game economy?
 
-### Step 1. Define investment and non-investment resources
+<h3 id="Step 1. Define investment and non-investment resources"> Step 1. Define investment and non-investment resources </h3>
+
 Investment resources are those that influence the speed at which the player receives the main value of the game. Let's assume we need a certain ammount of lumber in order to upgrade our encampment building and in that way speed up our units production time and at the same time we would be speeding up our victory. 
 
 If we talk about non-investment resources following the same example I used before, time would be the non-investment resource since its the resource needed to product a certain ammount of units over time but we cannot use time to reduce the time needed to produce units, it would be kind of Inception.
 
 Usually, resources of all types are described by the game designer at GDD creation, but the game economy designer still needs to carefully check all the mechanics to spot any additional resources that were not taken into account.
 
-### Step 2. Build a cost system
+<h3 id="Step 2. Build a cost system"> Step 2. Build a cost system </h3>
+
 When making progress, players earn in-game currency or resources that unlock certain content types or new tools for their progression. 
 
 Building a cost system allows you to put correct prices and determine how much everything is worth. For example, a player gets 60 stones for building a quarry on a mountain. How often will they get these 60 stones? At what point in time will they collect, for example, the 3,000 stones needed for a building upgrade? Having such a schedule, the game economy designer adjusts the player's income and expenses for all the in-game resources.
 
 ![](https://wowenomics.files.wordpress.com/2009/01/cropped-gold-coins-2.jpg)
 
-### Step 3. Create deficit and surplus
+<h3 id="Step 3. Create deficit and surplus"> Step 3. Create deficit and surplus </h3>
+
 To engage players we need to let them experience the whole range of emotions, the player won't feel the buzz of victory if he hasn't tasted defeat, since the juice of a game comes from balance between difficult & easy, interesting & boring we can apply the same kind of methodology into our game economy system.
 
 The reaching of maximum profit earnings by the player is similar to the overheated economy, where the game keeps increasing the price of a recently unlocked unit on the tech-tree in order to make the player feel this deficit, but at the same time decreases the price of the first unlocked units, making the player experience a surplus about what before was a deficit.
 
 Let's assume we start our game and to produce a worker we need about 50 wheat, and we produce 0.5 wheat per second. The game goes on and at a certain point we unlock the caravel unit, also we are now producing 5 wheat per second. To build the caraval we need 50 lumber but we are only producing 0.2 lumber per second. The player experiences an surplus when producing workers, giving him a feeling of progression but still lacks resources to build the recent unlocked unit, making him experience a deficit.
 
-### Step 4. Decomposition
+<h3 id="Step 4. Decomposition"> Step 4. Decomposition </h3>
 
 The game designer should create dependency plots for a period of time ahead, and break them up into segments and balance them inside these segments (First worker-First caravel ... First caravel-First siege tower ... and so on), getting the zero-sum game as the output. This means that if you count all the total revenues and all expenses, they will add up to 0 and this is an example of a perfectly balanced economy.
 
-### So, that's it?
+<h3 id="So, that's it?"> So, that's it? </h3>
+
 Balacing the game economy can seem like a torturing task to even for the most experienced game designers. However you can adhere to rules, guidelines and models that can help you build your game economy system.
 
 The 4 steps I've covered are a great base for building a balanced game economy, but is important to remember how each game is unique and needs a custom approach which involes continuous monitoring of players behavior.
 
-# Map Structure
+
+<h1 id="Map Structure"> Map Structure  </h1>
 
 When it comes to balancing maps on an RTS game and how we should structure them, the most important thing we must take into account is that maps from a competitive-based RTS are so much different from a campaign-based RTS map. So we're going to divide Map Structure into two classes: Competitive and Campaign
 
 Map balancing is probably one of the aspects that requires lest maths working to balance it properly since it's more like about gameplay features, and terrain. Having said that let's get into it. For both competitive and campaign map balance for an RTS, the best way to conceptualize a map is through drawings, diagrams and schemes. Drawings of how the map will be structured, which elements you will use in the map, and how you would dispose them and the routes the player could take. The same goes for schemes and diagrams.
 
-## Competitive Maps
+<h2 id="Competitive Maps">  Competitive Maps   </h2>
 
 Competitive maps focus on equality between both players and encouraging both of them in finding each other.
 
-### Map Symmetry
+<h3 id="Map Symmetry"> Map Symmetry </h3>
 
 The most important thing and the more differentiating trait about competitive maps structure is **Symmetry**. The most simple, yet most effective way to make a balanced RTS map for a competitve game is to make it symmetrical in order to prevent any player from having an advantage over the other in certain areas.
 
@@ -204,7 +226,7 @@ Also, symmetry is used to avoid unfair advantages at spawning points, supressing
 
 Each player starts on one of the corners of the map, being both of them provided with the same ammounts of resources. We can see how the map is really divided into 4 symmetrycal quads. 
 
-### Gameplay elements
+<h3 id="Gameplay elements"> Gameplay elements </h3>
 
 Gameplay elements follow the symmetric structure of the map, being scattered around it following a symmetric pattern, the symmetrical distribution of these elements assures that any player is going to have an avantage over the other when it comes to resource gathering. Even elements as the tallgrass (hide zones) or the observatories (watch points) are symmetrical in that way.
 
@@ -214,14 +236,13 @@ The map designer should set the resources in a way that encourages the players t
 
 However, things such as textures, backgrounds or decorative tiles which designers call "non gameplay elements" should'nt be symmetrical at all, since that would give an artificial feeling for the players during the game. Specially we can see this in the background of this particular map.
 
-
-### Players Route
+<h3 id="Players Route"> Players Route </h3>
 
 For achieving succesfully the crafting of a map, the most useful tools to use are squetches and schemes. Squetches are incredibly important to assure that the map and gameplay elements of the map are symmetrical, and for drawing the possible paths that players could take
 
 ![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/PACE.png)
 
-## Campaign Maps
+<h2 id="Campaign Maps">  Campaign Maps   </h2>
 
 When talking about campaign maps its important to keep focused on presenting clear objectives to the player and also giving a sense of progression through the map. For campaign maps there is no need to be symmetrical since you are fighting against an AI and if you are on advantage or disadvantage would be the decision of the game designer.
 
@@ -235,17 +256,8 @@ The goal or objective that is presented to the player is to escort Cho'Gall (A W
 
 We can see how are certain zones which main use is to be built on, creating a feeling of progression through the map for the player.
 
-# Index
-Now that we know which is our work as Game Designers, how difficult it is and how to do it we can move on into different RTS-core features as: Units, map, skill trees, or resources:
 
-* <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 1. Intransitive Mechanics or Rock Paper Scissors</b></a>
-* <a href="#Why Intransitive Mechanics?"><b> 1.2. Why Intransitive Mechanics?</b></a>
-* <a href="#Some Maths behind RPS games"><b> 2. Some Maths behind RPS games</b></a>
-* <a href="#Tactics taken in account on an RTS"><b> 3. Tactics taken in account on an RTS</b></a>
-* <a href="#Solving the human opponent problem"><b> 4. Solving the human opponent problem</b></a>
-* <a href="#Bibliography"><b> 5. Bibliography</b></a>
-
-# Units balancing
+<h1 id="Units balancing"> Units balancing  </h1>
 
 Units balancing is one of the core things we need to priorize when balancing our game since it will determine which outcome will have every engaged fight between two players. Although it can seem that units balancing is just about setting numbers, strengths and weaknesses is a bit more complex than just that.
 
@@ -256,7 +268,7 @@ We can see how balacing the resources needed to produce each unit is too a core 
 
 Having said that, I'm going to cover how to balance the units combat system based on RPS (Rock Papers Scissors) base.
 
-<h1 id="Intransitive Mechanics or Rock Paper Scissors"> Intransitive Mechanics or Rock Paper Scissors  </h1>
+<h2 id="Intransitive Mechanics or Rock Paper Scissors"> Intransitive Mechanics or Rock Paper Scissors  </h2>
 
 "Rock-Paper-Scissors like game" these are the games which don't have a single dominant strategy, because everything is weak and strong at the same time against something else, a kind of zer-sum games.
 
@@ -269,7 +281,7 @@ Another not so clear example is a game in which one kind of unit is an expert in
 
 ![](https://www.pngitem.com/pimgs/m/266-2667284_rock-paper-scissors-diagram-hd-png-download.png)
 
-<h2 id="Why Intransitive Mechanics?"> Why Intransitive Mechanics?  </h2>
+<h3 id="Why Intransitive Mechanics?"> Why Intransitive Mechanics?  </h3>
 
 So why if all intransitive mechanics are improved and modified versions of Rock-Paper-Sicssors, what's the appeal? 
 
@@ -283,7 +295,7 @@ Intransitive mechanics can be tangled as much as the designer wants to but its b
 
 ![](https://retrohelix.com/en/wp-content/uploads/2013/08/rps11.jpg)
 
-<h1 id="Some Maths behind RPS games"> Some Maths behind RPS games </h1>
+<h2 id="Some Maths behind RPS games"> Some Maths behind RPS games </h2>
 
 So if we propose a table in which we take in account the possible throws of each player we can start doing some mathy-things with this. Calling our rival’s throws r, p and s, and our throws R, P and S. 
 
@@ -322,7 +334,7 @@ This is significant; it tells us that an intransitive mechanic is very fragile, 
 
 Of course, against a human opponent who notices we’re always throwing P, their counter-strategy would be to throw a greater proportion of s, which then forces us to throw some R, which then causes them to throw p, which makes us throw S, which makes them throw r, and around and around we go. 
 
-<h1 id="Tactics taken in account on an RTS"> Tactics taken in account on an RTS </h1>
+<h2 id="Tactics taken in account on an RTS"> Tactics taken in account on an RTS </h2>
 
 How much strategy is needed in an RTS to win a human opponent? Assuming that RTSs can be simplified to the Rock-Paper-Scissors (RPS) formula makes this last question a lot easier to answer since a chinese university has found the always-winning strategy for an RPS based game.
 
@@ -338,7 +350,7 @@ If I'm Alex and my rival is Paul, Paul has been trying to destroy my tanks using
 
 But as I stated before: two conscious and gamer players can be engaged on a constant loop if following this strategy so, how to solve this situation?
 
-<h1 id="Solving the human opponent problem"> Solving the human opponent problem </h1>
+<h2 id="Solving the human opponent problem"> Solving the human opponent problem </h2>
 
 Rock-Paper-Scissors is a symmetric zero-sum game, so:
 
