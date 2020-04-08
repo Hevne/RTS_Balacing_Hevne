@@ -47,7 +47,7 @@ My name is Eudald Garrofe, [Hevne](https://github.com/Hevne) on GitHub, I'm a st
 
   * <a href="#Solving the human opponent problem"><b> 6.4 Solving the human opponent problem</b></a>
 
-* <a href="#Bibliography"><b> 7. Bibliography</b></a>
+* <a href="#Sources"><b> 7. Sources</b></a>
 
 <h1 id="RTS Balance"> RTS Balance   </h1>
 
@@ -423,11 +423,53 @@ When humans try to play a game randomly they tend to not be quite good at it, so
 
 So the solution of 1:1:1 does not say which throw you must choose at any given time **(that is in fact where the skill of the game comes in)**, but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
 
-<h1 id="Bibliography"> Bibliography </h1>
+<h1 id="Sources"> Sources </h1>
+
+***About General Balancing***
+
+* [Why Balance Matters](https://www.stardock.com/games/article/487836/dev-journal-why-balance-matters)
+
+* [The Challenge of Balancing an RTS](https://www.stardock.com/games/article/487949/dev-journal-the-challenge-of-balancing-an-rts)
+
+* [Asymmetric Design](https://www.youtube.com/watch?v=F1w-qCbYVe8)
+
+* [What Makes RTS Fun](https://gamecloud.net.au/features/opinion/what-makes-rts-games-fun-the-challenge-of-balancing-an-rts)
+
+* [The Balance Between Power Progression and Equilibrium](https://www.gamasutra.com/blogs/BrandonCasteel/20170306/292982/The_Balance_of_Power_Progression_and_Equilibrium_in_RealTime_StrategyGames.php)
+
+***About Tech Trees***
+
+* [A Spec Into Tech Trees](https://gamedevelopment.tutsplus.com/articles/lets-spec-into-talent-trees-a-primer-for-game-designers--gamedev-6691)
+
+* [Creating And Adaptative Tech Tree](https://www.gamasutra.com/view/news/341477/Game_Design_Deep_Dive_Creating_an_adaptive_tech_tree_in_Dawn_of_Man.php)
+
+***About Resource Gathering***
+
+* [Discussion About Resource Gathering](https://www.gamedev.net/forums/topic/440191-rts-what-is-your-favorite-resource-system/)
+
+* [Thoughts On Resource Management](https://waywardstrategy.com/2014/12/18/random-thoughts-on-resource-management-in-rts/)
+
+* [Resource Gathering Styles](https://www.reddit.com/r/truegaming/comments/n9q0z/strategy_in_rts_resource_gathering_styles/)
+
+***About Economy System***
+
+* [Basic Steps Of an Economy System](https://www.gamasutra.com/blogs/DarinaEmelyantseva/20190418/340987/5_Basic_Steps_in_Creating_Balanced_InGame_Economy.php)
+
+***About Map Structure***
+
+* [Properties Of Good RTS Level Design](https://gamedev.stackexchange.com/questions/2370/properties-of-good-rts-level-design)
+
+***About Units***
 
 * [The Balance of Power: Progression and Equilibrium in Real-Time Strategy Games](https://www.gamasutra.com/blogs/BrandonCasteel/20170306/292982/The_Balance_of_Power_Progression_and_Equilibrium_in_RealTime_StrategyGames.php)
+
 * [Intransitive Mechanics](https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/)
+
 * [Examining the Implementation of Rock, Paper, Scissors, Balance in Video Games](https://www.youtube.com/watch?v=N69Jzzcu57Q)
+
 * [Perfect Imbalance](https://www.youtube.com/watch?v=e31OSVZF77w)
+
 * [Applying RPS to games](https://www.gamasutra.com/blogs/DevonWiersma/20170428/297030/Applying_Rock_Paper_Scissors_to_Video_Games.php)
+
+* [Introduction About Units Balance](http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/)
 
