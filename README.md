@@ -443,6 +443,8 @@ So the solution of 1:1:1 does not say which throw you must choose at any given t
 
 * [Creating And Adaptative Tech Tree](https://www.gamasutra.com/view/news/341477/Game_Design_Deep_Dive_Creating_an_adaptive_tech_tree_in_Dawn_of_Man.php)
 
+* [Tech Tree Composition](https://books.google.es/books?id=RhVoR-ATDlUC&pg=PT251&lpg=PT251&dq=tech+tree+balancing&source=bl&ots=b55nW0D4G-&sig=oTwLejX0L3NGmAfw2_93jd--E1E&hl=es&sa=X&ved=0ahUKEwjW1I2suLXZAhVmneAKHfR5Cro4ChDoAQhsMAk#v=onepage&q=tech%20tree%20balancing&f=true)
+
 ***About Resource Gathering***
 
 * [Discussion About Resource Gathering](https://www.gamedev.net/forums/topic/440191-rts-what-is-your-favorite-resource-system/)
@@ -458,6 +460,10 @@ So the solution of 1:1:1 does not say which throw you must choose at any given t
 ***About Map Structure***
 
 * [Properties Of Good RTS Level Design](https://gamedev.stackexchange.com/questions/2370/properties-of-good-rts-level-design)
+
+* [Multiplayer Map Design](https://waywardstrategy.com/2015/06/07/time-as-a-resource-part-2-multiplayer-map-design/)
+
+* [Beginner's Guide To Level Design](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-designing-video-game-levels--cms-25662)
 
 ***About Units***
 
