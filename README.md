@@ -5,45 +5,47 @@ My name is Eudald Garrofe, I'm a student from CITM's videogames design & develop
 
 * <a href="#RTS Balance"><b> 1. RTS Balance</b></a>
 
-* <a href="#RTS Balance difficulty"><b> 1.1 RTS Balance difficulty</b></a>
+  * <a href="#RTS Balance difficulty"><b> 1.1 RTS Balance difficulty</b></a>
 
-* <a href="#How do we test if something is un/balanced?"><b> 1.2 How do we test if something is un/balanced?</b></a>
+  * <a href="#How do we test if something is un/balanced?"><b> 1.2 How do we test if something is un/balanced?</b></a>
 
 * <a href="#Tech Trees"><b> 2. Tech Trees</b></a>
 
-* <a href="#Balacing a Tech Tree"><b> 2.1 Balacing a Tech Tree</b></a>
+  * <a href="#Balacing a Tech Tree"><b> 2.1 Balacing a Tech Tree</b></a>
 
-* <a href="#Some Tips When Building a Balanced Tech Tree"><b> 2.2 Some Tips When Building a Balanced Tech Tree</b></a>
+  * <a href="#Some Tips When Building a Balanced Tech Tree"><b> 2.2 Some Tips When Building a Balanced Tech Tree</b></a>
 
 * <a href="#Resources Gathering"><b> 3. Resources Gathering</b></a>
 
-* <a href="#Some tips about Balanced Resource Gathering"><b> 3.1 Some tips about Balanced Resource Gathering</b></a>
+  * <a href="#Some tips about Balanced Resource Gathering"><b> 3.1 Some tips about Balanced Resource Gathering</b></a>
 
 * <a href="#Game Economy System"><b> 4. Game Economy System</b></a>
 
-* <a href="#Step 1. Define investment and non-investment resources"><b> 4.1 Main Steps </b></a>
+  * <a href="#Step 1. Define investment and non-investment resources"><b> 4.1 Main Steps </b></a>
 
 * <a href="#Map Structure"><b> 5. Map Structure</b></a>
 
-* <a href="#Competitive Maps"><b> 5.1 Competitive Maps</b></a>
+  * <a href="#Competitive Maps"><b> 5.1 Competitive Maps</b></a>
 
-* <a href="#Map Symmetry"><b> 5.1.1 Map Symmetry</b></a>
+    * <a href="#Map Symmetry"><b> 5.1.1 Map Symmetry</b></a>
 
-* <a href="#Gameplay elements"><b> 5.1.2 Gameplay Elements</b></a>
+    * <a href="#Gameplay elements"><b> 5.1.2 Gameplay Elements</b></a>
 
-* <a href="#Players Route"><b> 5.1.3 Players Route</b></a>
+    * <a href="#Players Route"><b> 5.1.3 Players Route</b></a>
+    
+  * <a href="#Campaign Maps"><b> 5.2 Campaign Maps</b></a>
 
 * <a href="#Units balancing"><b> 6. Units balancing</b></a>
 
-* <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 6.1 Intransitive Mechanics or Rock Paper Scissors</b></a>
+  * <a href="#Intransitive Mechanics or Rock Paper Scissors"><b> 6.1 Intransitive Mechanics or Rock Paper Scissors</b></a>
 
-* <a href="#Why Intransitive Mechanics?"><b> 6.1.2 Why Intransitive Mechanics?</b></a>
+    * <a href="#Why Intransitive Mechanics?"><b> 6.1.2 Why Intransitive Mechanics?</b></a>
 
-* <a href="#Some Maths behind RPS games"><b> 6.2 Some Maths behind RPS games</b></a>
+  * <a href="#Some Maths behind RPS games"><b> 6.2 Some Maths behind RPS games</b></a>
 
-* <a href="#Tactics taken in account on an RTS"><b> 6.3 Tactics taken in account on an RTS</b></a>
+  * <a href="#Tactics taken in account on an RTS"><b> 6.3 Tactics taken in account on an RTS</b></a>
 
-* <a href="#Solving the human opponent problem"><b> 6.4 Solving the human opponent problem</b></a>
+  * <a href="#Solving the human opponent problem"><b> 6.4 Solving the human opponent problem</b></a>
 
 * <a href="#Bibliography"><b> 7. Bibliography</b></a>
 
