@@ -46,8 +46,10 @@ My name is Eudald Garrofe, [Hevne](https://github.com/Hevne) on GitHub, I'm a st
   * <a href="#Tactics taken in account on an RTS"><b> 6.3 Tactics taken in account on an RTS</b></a>
 
   * <a href="#Solving the human opponent problem"><b> 6.4 Solving the human opponent problem</b></a>
+  
+* <a href="#AI Balance"><b> 7. Units balancing</b></a>
 
-* <a href="#Sources"><b> 7. Sources</b></a>
+* <a href="#Sources"><b> 8. Sources</b></a>
 
 <h1 id="RTS Balance"> RTS Balance   </h1>
 
@@ -423,6 +425,40 @@ When humans try to play a game randomly they tend to not be quite good at it, so
 
 So the solution of 1:1:1 does not say which throw you must choose at any given time **(that is in fact where the skill of the game comes in)**, but just that over time we expect the optimal strategy to be a 1:1:1 ratio (because any deviation from that hands your opponent a strategy that wins more often over you until you readjust your strategy back to 1:1:1).
 
+<h1 id="AI Balance"> AI Balance </h2>
+
+AI Balance is a core aspect when talking about balance on an RTS since if the AI is not correctly balanced according to all the features of your game the balance done previously can become useless. Is your AI not competent enough? It turns out to be a nightmare for your players? Why? How to solve these things?
+
+First of all is important to determine the grade of difficulty you want your AI to be. It's common to see different AI difficulties for the player to choose before starting a game in order to let the player adjust the grade of difficulty for the match, now we are going to talk about some tools that can be used in order to balance your AI according to the difficulty set by the player.
+
+But first, how is your AI supposed to work? How it will react to certain inputs? Which would be its outputs? For this, we should first stablish a State Machine Diagram in order to portray the basics of the behavior of the AI, something like this one:
+
+![](https://valdiviadev.github.io/RTS-balancing-research/Images/StateMachine.png)
+
+How will a worker unit react if being attacked by the player? It should flee seeking for aid in some city, an archer should probably find a group of soldiers to be covered and have free fire towards the player, etc... Making a more "intelligent" AI it will mean making a harder hone too since the reactions of the AI will determine how easy is for the player to win the game. As more complex and realistic reactions, it will be harder for the player.
+
+As I said before, now I'm going to cover some of the most common ways to balance AIs used on RTS:
+
+* Have all factions/races be the same but with different appearance.
+
+* Have the factions/races be different but make sure that there exists a RPS relation between them.
+
+* Just don't balance them and let some factions/races be more difficult to beat
+
+The developers can too tweak some numbers in the AI code in order to make it harder or easier, for example: decreasing production rate, decrease resource gathering rate, increasing times of production and vice versa. 
+
+A common way to determine the grade of difficulty of an AI is to stablish a pattern of conduct, giving the AI a task-list that is well known by the designer that is the best way to win a match, making the AI rush certain buildings or units while the player is still thinking about its strategy.
+
+And finally but not my favourite is to make the AI cheat, some examples of these cheap tricks could be:
+
+* No fog of war for the AI
+
+* AI knows what you are producing and builds to counter it
+
+* They start with more resources and collect it faster
+
+To finish, AI is quite hard to balance since it depends on a highly consistent and usually playtesting applying a lot of different play styles, but it's not just "balanced" or "unbalanced" it's about if it really fits into the global game and if it's properly adjusted to the difficulty the player is expecting.
+
 <h1 id="Sources"> Sources </h1>
 
 ***About General Balancing***
@@ -478,4 +514,8 @@ So the solution of 1:1:1 does not say which throw you must choose at any given t
 * [Applying RPS to games](https://www.gamasutra.com/blogs/DevonWiersma/20170428/297030/Applying_Rock_Paper_Scissors_to_Video_Games.php)
 
 * [Introduction About Units Balance](http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/)
+
+***About AI***
+
+* [How AI is balanced?](https://gamedev.stackexchange.com/questions/127779/how-ai-is-balanced-across-different-type-of-races-in-rts-games)
 
