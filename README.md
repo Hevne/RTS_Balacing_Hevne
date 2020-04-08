@@ -259,7 +259,7 @@ Also, symmetry is used to avoid unfair advantages at spawning points, supressing
 
 *As an example, I'll be illustrating the map symmetry on a map from Blizzard's game Starcraft II.*
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/symmetry.png)
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/symmetry.png?raw=true)
 
 Each player starts on one of the corners of the map, being both of them provided with the same ammounts of resources. We can see how the map is really divided into 4 symmetrycal quads. 
 
@@ -269,7 +269,7 @@ Gameplay elements follow the symmetric structure of the map, being scattered aro
 
 The map designer should set the resources in a way that encourages the players to slowly go towards each other. That can be seen in the bonus resources areas (Rich Mineral) in order to force a combat engage between both players
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/Map%20gmply.png)
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/Map%20gmply.png?raw=true)
 
 However, things such as textures, backgrounds or decorative tiles which designers call "non gameplay elements" should'nt be symmetrical at all, since that would give an artificial feeling for the players during the game. Specially we can see this in the background of this particular map.
 
@@ -277,7 +277,7 @@ However, things such as textures, backgrounds or decorative tiles which designer
 
 For achieving succesfully the crafting of a map, the most useful tools to use are squetches and schemes. Squetches are incredibly important to assure that the map and gameplay elements of the map are symmetrical, and for drawing the possible paths that players could take
 
-![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/PACE.png)
+![](https://github.com/Hevne/RTS_Balacing_Hevne/blob/master/PACE.png?raw=true)
 
 <h2 id="Campaign Maps">  Campaign Maps   </h2>
 
