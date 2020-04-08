@@ -1,5 +1,5 @@
 # Introduction
-My name is Eudald Garrofe, I'm a student from CITM's videogames design & development degree. On this website I'm going to talk about the RTS games genre and the main aspects we need to take in account when as a Game Designer we try to balance our game.
+My name is Eudald Garrofe, [Hevne](https://github.com/Hevne) on GitHub, I'm a student from CITM's videogames design & development degree. On this website I'm going to talk about the RTS games genre and the main aspects we need to take in account when as a Game Designer we try to balance our game.
 
 # Index
 
